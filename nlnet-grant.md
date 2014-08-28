@@ -4,17 +4,17 @@
 
 In this application for an [NLnet](http://nlnet.nl/) grant, we'll speak about a subcategory of Free and Open Source Software, FOSS. We'll speak about the ones that provide Internet Applications. For instance, [wordpress](http://wordpress.org/), [postfix](http://www.postfix.org/), and [ejabberd](http://www.process-one.net/en/ejabberd/) are Free and Open Source Internet Application, FOSIA.
 
-We'll also speak about people or companies that provide hosting services for these Internet Applications. For instance, [Gandi](https://www.gandi.net/), [OVH](https://www.ovh.com/), [riseup](https://riseup.net/), [ecobytes](http://ecobytes.net/about) and myself at home with a [Raspberry Pi](http://www.raspberrypi.org/) are Hosting Service Provider, HSP. These people have a common objective of offering a store (or marketplace) for their end user to choose between their applications. We understand store as defined by the [IndieWeb community](http://indiewebcamp.com/store).
+We'll also speak about people or companies that provide hosting services for these Internet Applications. For instance, [Gandi](https://www.gandi.net/), [OVH](https://www.ovh.com/), [riseup](https://riseup.net/), [ecobytes](http://ecobytes.net/about) and myself at home with a [Raspberry Pi](http://www.raspberrypi.org/) are Hosting Service Provider, HSP. These people have a common objective of offering hosting for their end user's application(s) of choice.
 
 ## 1. Project plan
 
-The project aims to build a network of independent HSPs providing FOSIA.
+The project aims to build a network of independent HSPs providing FOSIA hosting.
 
-The first goal is to define a standard FOSIA store. This standard defines how to package an application, its dependencies, and the associated data created during runtime. It will allow any user of any HSP to migrate his application instance easily from one HSP to another.
+The first goal is to define a standard FOSIA format. This standard defines how to package an application, its dependencies, and how to run it, given the associated data created during runtime. It will allow any user of any HSP to migrate his application instance easily from one HSP to another.
 
-The second goal is to make an implementation of such a store. This implementation will aim firstly at hosting personal indie websites and personal data servers for people, based on existing FOSIA. It will allow experienced system administrators to start their own HSP.
+The second goal is to package all the most popular and well-known FOSIAs applications in this format. This implementation will aim firstly at hosting personal indie websites and personal data servers for people, based on existing FOSIAs. It will allow experienced system administrators to start their own HSP.
 
-The third and main goal is to develop a network of independent HSP. We believe that local and small-scale HSPs are the way to fight against the ongoing gravitation of infrastructure and power to the "center" of the internet, e.g., Google, Facebook. And we believe it is the right time to do it, for three reasons:
+The third and main goal is to develop a network of independent HSPs. We believe that local and small-scale HSPs are the way to fight against the ongoing gravitation of infrastructure and power to the "center" of the internet, e.g., Google, Facebook. And we believe it is the right time to do it, for three reasons:
 - people are ever more aware of the need to [redecentralize](http://redecentralize.org/) the internet
 - automation tools start to be mature
 - hardware is ever cheaper
@@ -23,36 +23,36 @@ It will allow us to build blazing simple tools, for powerful and resilient HSPs.
 
 ### 1.1. The problem solved by this project
 
-Let's say, there is a bug on internet, e.g., gmail is spying on private conversations. Software engineers have power to resolve bugs. They write a piece of software, e.g., [mailpile](https://www.mailpile.is/). People will install the source code on their server, bug solved! But most of people online don't even know what a server is and even less, what source code means. Did you realize that if you go to many FOSIA project pages, you just have a `demo` possibility at best (e.g. [mailpile](https://www.mailpile.is/), [YunoHost](https://yunohost.org/)) and a `download the source code` for the worsts. Why not having a classic `sign up` button? We propose to implement this sign up button by standardizing FOSIA store. We will write an implementation that will allow having a simple way to provision the internet application for the end user, from the HSP of his choice.
+Let's say, there is a bug on internet, e.g., gmail is spying on private conversations. Software engineers have power to resolve bugs. They write a piece of software, e.g., [mailpile](https://www.mailpile.is/). People will install the source code on their server, bug solved! But most of people online don't even know what a server is and even less, what source code means. Did you realize that if you go to many FOSIA project pages, you just have a `demo` possibility at best (e.g. [mailpile](https://www.mailpile.is/), [YunoHost](https://yunohost.org/)) and a `download the source code` for the worsts. Why not having a classic `sign up` button? We propose to implement this sign up button by standardizing FOSIA format. We will write an implementation that will allow having a simple way to provision the internet application for the end user, from the HSP of his choice.
 
-Today, there is no such standard, and we believe it is something missing. We can see the emergence of [Dockerfiles](http://docs.docker.com/reference/builder/) and [Vagrantfiles](http://docs.vagrantup.com/v2/vagrantfile/index.html) around FOSIA projects. But this doesn't care about application data that are created at runtime. And these files are aimed primarly at developers. The problem to solve is how to transfer a running FOSIA from an HSP to another. How to write a standard manifest file. How to write a standard store.
+Today, there is no such standard, and we believe it is something missing. We can see the emergence of [Dockerfiles](http://docs.docker.com/reference/builder/) and [Vagrantfiles](http://docs.vagrantup.com/v2/vagrantfile/index.html) around FOSIA projects. But this doesn't care about application data that are created at runtime. And these files are aimed primarly at developers. The problem to solve is how to transfer a running FOSIA from an HSP to another. How to write a standard manifest file. How to write a standard format.
 
 ###  1.2. the relative advantage of the proposed innovation
 
 We believe that thanks to the fact that it's a standard, people will be free to move their FOSIA between HSP. They will even be able to start their own with their data. It is really important for us that people are free to change their HSP at any time.
 
-We are aiming at creating a FOSIA store, and the only people that are trying to solve this particular challenge right now are :
+We are aiming at creating a FOSIA format, and the only people that are trying to solve this particular challenge right now are :
 - [YunoHost](https://yunohost.org/)
 - [Sandstorm](https://sandstorm.io/)
 - [arkos](https://arkos.io/)
 
 There is also [ownCloud](http://owncloud.org/) and [Cozy](http://cozy.io/), but they take the party of rewriting all FOSIA to offer an integrated user experience (which is also a valid path in our opinion).
 
-But nobody is thinking about the interoperability of such store. So we propose to solve this challenge and offer them to follow the standard. We'll work closely with these people during all the standard creation process.
+But nobody is thinking about the interoperability of such format. So we propose to solve this challenge and offer them to follow the standard. We'll work closely with these people during all the standard creation process.
 
 And if you compare us to google/facebook, our advantage is that we don't aim at selling personal data.
 
-At the end of the day, when we'll setup the implementation of the standard store, we'll also be an HSP, but an independent one. We aim local, and small scale, in the same way you trust more your local bio farmer than your supermarket.
+At the end of the day, when we'll setup the implementation of the standard format, we'll also be an HSP, but an independent one. We aim local, and small scale, in the same way you trust more your local bio farmer than your supermarket.
 
 ###  1.3. usability: for whom and to what purpose
 
-The target of the standard store is any HSP that is willing to offer FOSIA, and believe that interoperability is a key element of such service. It is also targeted at FOSIA developers and store developers.
+The target of the standard format is any HSP that is willing to offer FOSIA, and believe that interoperability is a key element of such service. It is also targeted at FOSIA developers and format developers.
 
 And then, during the implementation phase , we target a geek (woman or man). She/He is probably working as software engineer and cares about free software and likes playing around/tinkering with computers. And more generally, anybody that is concerned by privacy, and ready to give up a bit of usability and money in exchange of freedom. These persons want to take back control over their data. Unfortunately, these persons don't have enough time or sufficient knowledge to administer these services by themselves.
 
 ###  1.4. perspectives for further development of this innovation and/or other technologies
 
-When the standard is written, we'll work to promote it. We hope that many HSP and many stores will adopt the standard and open their implementation.
+When the standard is written, we'll work to promote it. We hope that many HSP and many formats will adopt the standard and open their implementation.
 
 As more and more people are concerned about their privacy and data ownership, we see more and more projects in this area trying to solve this issue. Most of them are software based, but without the service in mind. Even worse, there is no interoperability in mind. But we see that ever more people are interested. So in terms of development, this is a really interesting area to focus on. And so the ultimate goal is for all people have their [Freedom Box](https://freedomboxfoundation.org/) at home. In the mean time, as it is still complicated for most of the people, we offer them this hosted solution.
 
@@ -64,7 +64,7 @@ We believe writing software to make the internet a better place is nice. But it 
 
 ## 2. Existing work by others
 
-The idea of a personal/cloud store is not new. A lot of people already try to solve this challenge:
+The idea of a personal/cloud format is not new. A lot of people already try to solve this challenge:
 - [Freedom Box](https://freedomboxfoundation.org/)
 - [YunoHost](https://yunohost.org/)
 - [Sandstorm](https://sandstorm.io/)
@@ -78,21 +78,19 @@ There is already some sort of manifest file for every applications they host. Bu
 
 At the HSP level, for now, just two of them offer the service as well ([ownCloud](http://owncloud.org/) and [Sandstorm](https://sandstorm.io/)).
 
-There is also the great work of the [IndieWeb community](http://indiewebcamp.com/store) to try to find out the actors involved in writing such a standard. It will be our base to start writing the standard specification.
-
 ## 3. Existing work by us
 
 We are at early stage of the project, and you can follow progress on our [GitHub account](https://github.com/indiehosters/). At the HSP level, we already have static sites working with IPv6+SNI+SPDY, and an instance of [YunoHost](https://yunohost.org/). This allows us to provide emails and jabber for our end users.
 
-We'll start experimenting to switch these services from our 2 HSP, and from this experience, start to write the standard store. We'll also start communicating on this idea soon, among the community of these softwares.
+We'll start experimenting to switch these services from our 2 HSP, and from this experience, start to write the standard format. We'll also start communicating on this idea soon, among the community of these softwares.
 
 ## 4. Project setup
 
 ### 4.1 Two sub projects
 
-#### Standard FOSIA store
+#### Standard FOSIA format
 
-We firstly need to write a standard FOSIA store, with data that are created at runtime.
+We firstly need to write a standard FOSIA format, with data that are created at runtime.
 
 #### Implementation
 
@@ -119,7 +117,7 @@ Pierre works since two years as DevOps and software engineer for Seedrs. During 
 We decided to quit our current position to start this project fulltime on the first of October. We are now in alpha phase with a bit less than ten alpha testers of the IndieHosters network. We aim at reaching beta for first of February. Here is our planning, with deliverables, for the next two quarterly.
 
 #### 1st of December 2014: draft standard
-- standard FOSIA store and describe linked data
+- standard FOSIA format and describe linked data
 
 #### 1st February 2015: implementation - beta release
 - a simple web application to provision users
@@ -186,11 +184,11 @@ In the later case, the stable release of the implementation would be delayed by 
 
 ## 7. Project risks
 
-###  7.1. HSP / existing store Adoption
+###  7.1. HSP / existing format Adoption
 
-If the standard is too complicated to set up, or it involves too much changes to their existing infrastructure, HSP and existing stores will not adopt the standard. So we have to aim at simplicity. We might also need to implement some sort of traduction of already existing store manifest files. This way we can have an easy implementation for the already existing stores.
+If the standard is too complicated to set up, or it involves too much changes to their existing infrastructure, HSP and existing formats will not adopt the standard. So we have to aim at simplicity. We might also need to implement some sort of traduction of already existing format manifest files. This way we can have an easy implementation for the already existing formats.
 
-To mitigate this risk, we really need to focus on involving the community as soon as possible during the project. The sooner the better. And we also need to involve as many different actors as possible, i.e. for-profit HSP, associatives HSP, existing FOSIA store.
+To mitigate this risk, we really need to focus on involving the community as soon as possible during the project. The sooner the better. And we also need to involve as many different actors as possible, i.e. for-profit HSP, associatives HSP, existing FOSIA format.
 
 ###  7.2. End users Adoption
 
@@ -207,7 +205,7 @@ We find this way to be really healthy ecosystem. Then users will have choice amo
 
 ## 8. Project results dissemination
 
-We'll start from the beginning of the project to involve FOSIA community to write the standard FOSIA store. So from the beginning we will spread this project.
+We'll start from the beginning of the project to involve FOSIA community to write the standard FOSIA format. So from the beginning we will spread this project.
 
 And once we release the stable version of our implementation, we have a creative way of disseminating the project. The idea is to replace the traditional `demo` button you can find on many FOSIA projects by a `sign up` button. This button will bring the user to his HSP and allow him to use directly the software (without installing nor configuring any thing). The idea will be to work closely with FOSIA developers to implement this functionality on the project page before they launch it in the media.
 
@@ -215,6 +213,6 @@ It will be a win/win partnership. FOSIA developers will be happy because they wi
 
 ## 9. Follow-ups on the project
 
-This is a long term project. We ask NLnet to help to bootstrap it, but we hope to be sustainable after stable release (thanks to donations). So the followup is as soon as it is stable, we add more and more FOSIA to our store implementation.
+This is a long term project. We ask NLnet to help to bootstrap it, but we hope to be sustainable after stable release (thanks to donations). So the followup is as soon as it is stable, we add more and more FOSIA to our format implementation.
 
-If we don't have anymore funding, that's also fine. If enough people are using our store implementation, more and more HSP will use it also. So the community will be able to maintain the implementation by itself. And us, the founders, will continue to maintain our HSP and provide FOSIA (added by the community) to our users.
+If we don't have anymore funding, that's also fine. If enough people are using our format implementation, more and more HSP will use it also. So the community will be able to maintain the implementation by itself. And us, the founders, will continue to maintain our HSP and provide FOSIA (added by the community) to our users.
