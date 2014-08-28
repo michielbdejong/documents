@@ -4,7 +4,7 @@
 
 In this application for [NLnet](http://nlnet.nl/) grant, we'll speak about a subcategory of Free and Open Source Software, FOSS. We'll speak about the ones that provide Internet applications. For instance, [wordpress](http://wordpress.org/), [postfix](http://www.postfix.org/), [ejabberd](http://www.process-one.net/en/ejabberd/) are Free and Open Source Internet Application, FOSIA.
 
-We'll also speak about people or companies that provide hosting services for these Internet applications. For instance, [Gandi](https://www.gandi.net/), [OVH](https://www.ovh.com/), [riseup](https://riseup.net/), [ecobytes](http://ecobytes.net/about) and myself at home with a [Raspberry Pi](http://www.raspberrypi.org/) are Hosting Service Provider, HSP. These people have a common objective of offering a store (or marketplace) for their end user to choose between their application. We understand store as defined by the [IndieWeb community](http://indiewebcamp.com/store).
+We'll also speak about people or companies that provide hosting services for these Internet applications. For instance, [Gandi](https://www.gandi.net/), [OVH](https://www.ovh.com/), [riseup](https://riseup.net/), [ecobytes](http://ecobytes.net/about) and myself at home with a [Raspberry Pi](http://www.raspberrypi.org/) are Hosting Service Provider, HSP. These people have a common objective of offering a store (or marketplace) for their end user to choose between their applications. We understand store as defined by the [IndieWeb community](http://indiewebcamp.com/store).
 
 ## 1. Project plan
 
@@ -46,7 +46,7 @@ At the end of the day, when we'll setup the implementation of the standard store
 
 ###  1.3. usability: for whom and to what purpose
 
-The target of the standard store is any HSP that is willing to offer FOSIA, and believe that interoperability is a key element of such service. It is also targeted at developers of FOSIA and store developers.
+The target of the standard store is any HSP that is willing to offer FOSIA, and believe that interoperability is a key element of such service. It is also targeted at FOSIA developers and store developers.
 
 And then, during the implementation phase , we target a geek (woman or man). She/He is probably working as software engineer and cares about free software and likes playing around/tinkering with computers. And more generally, anybody that is concerned by privacy, and ready to give up a bit of usability and money in exchange of freedom. These persons want to take back control over their data. Unfortunately, these persons don't have enough time or sufficient knowledge to administer these services by themselves.
 
@@ -64,7 +64,7 @@ We believe writing software to make the Internet a better place is nice. But it 
 
 ## 2. Existing work by others
 
-The idea of a personal/cloud app store is not new. A lot of people already try to solve this challenge:
+The idea of a personal/cloud store is not new. A lot of people already try to solve this challenge:
 - [Freedom Box](https://freedomboxfoundation.org/)
 - [YunoHost](https://yunohost.org/)
 - [Sandstorm](https://sandstorm.io/)
@@ -74,11 +74,11 @@ The idea of a personal/cloud app store is not new. A lot of people already try t
 
 And more broadly every kind of HSP (through [plesk](http://sp.parallels.com/products/plesk/), [webmin](http://www.webmin.com/) or [cpanel](http://cpanel.net/))
 
-There is already some sort of manifest file for every applications they host. But it is not at all standard between them. And there no easy way to migrate your data from one software to another.
+There is already some sort of manifest file for every applications they host. But it is not at all standard between them. And there is no easy way to migrate your data from one software to another.
 
 At the HSP level, for now, just two of them offer the service as well ([ownCloud](http://owncloud.org/) and [Sandstorm](https://sandstorm.io/)).
 
-There is also the great work of the [IndieWeb community](http://indiewebcamp.com/store) to try to find out the actors involved in righting such a standard. It will be our base of work.
+There is also the great work of the [IndieWeb community](http://indiewebcamp.com/store) to try to find out the actors involved in writing such a standard. It will be our base to start writing the standard specification.
 
 ## 3. Existing work by us
 
@@ -182,13 +182,13 @@ Two financing plans are thought:
 - the perfect one: NLnet finances the standard and the implementation.
 - if it is not possible, we ask NLnet to kindly finance the standard, and we take care of financing the implementation through crowdfunding and freelance.
 
-In the latter case, the stable release of the implementation would be delayed by at least one month (time to prepare crowdfunding campaign) if the crowdfunding is successful. Or many months in case we have to freelance to finish the project.
+In the later case, the stable release of the implementation would be delayed by at least one month (time to prepare crowdfunding campaign) if the crowdfunding is successful. Or many months in case we have to freelance to finish the project.
 
 ## 7. Project risks
 
 ###  7.1. HSP / existing store Adoption
 
-If the standard is too complicated to set up, or it involves too much changes to their existing infrastructure, HSP and existing stores will not adopt the standard. So we have to aim at simplicity. We might also need to implement some sort of traduction of already existing store manifest files. This way we can have an easy implementation for the already existing app store.
+If the standard is too complicated to set up, or it involves too much changes to their existing infrastructure, HSP and existing stores will not adopt the standard. So we have to aim at simplicity. We might also need to implement some sort of traduction of already existing store manifest files. This way we can have an easy implementation for the already existing stores.
 
 To mitigate this risk, we really need to focus on involving the community as soon as possible during the project. The sooner the better. And we also need to involve as many different actors as possible, i.e. for-profit HSP, associatives HSP, existing FOSIA store.
 
@@ -215,6 +215,6 @@ It will be a win/win partnership. FOSIA developers will be happy because they wi
 
 ## 9. Follow-ups on the project
 
-This is a long term project. We ask NLnet to help to bootstrap it, but we hope to be sustainable after stable release (thanks to donations). So the followup is as soon as it is stable, we add more and more FOSIA to the store.
+This is a long term project. We ask NLnet to help to bootstrap it, but we hope to be sustainable after stable release (thanks to donations). So the followup is as soon as it is stable, we add more and more FOSIA to our store implementation.
 
-If we don't have anymore funding, that's also fine. If enough people are using it, more and more HSP will be there. So the community will be able to maintain the implementation by itself. And us, the founders, will continue to maintain our hosts and provide FOSIA (added by the community) to our users.
+If we don't have anymore funding, that's also fine. If enough people are using our store implementation, more and more HSP will use it also. So the community will be able to maintain the implementation by itself. And us, the founders, will continue to maintain our HSP and provide FOSIA (added by the community) to our users.
