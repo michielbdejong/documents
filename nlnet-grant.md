@@ -2,28 +2,28 @@
 
 ## 0. Lemma
 
-In this application for [NLnet](http://nlnet.nl/) grant, we'll speak about a subcategory of Free and Open Source Software, FOSS. We'll speak about the ones that provide Internet applications. For instance, [wordpress](http://wordpress.org/), [postfix](http://www.postfix.org/), [ejabberd](http://www.process-one.net/en/ejabberd/) are Free and Open Source Internet Application, FOSIA.
+In this application for an [NLnet](http://nlnet.nl/) grant, we'll speak about a subcategory of Free and Open Source Software, FOSS. We'll speak about the ones that provide Internet Applications. For instance, [wordpress](http://wordpress.org/), [postfix](http://www.postfix.org/), and [ejabberd](http://www.process-one.net/en/ejabberd/) are Free and Open Source Internet Application, FOSIA.
 
-We'll also speak about people or companies that provide hosting services for these Internet applications. For instance, [Gandi](https://www.gandi.net/), [OVH](https://www.ovh.com/), [riseup](https://riseup.net/), [ecobytes](http://ecobytes.net/about) and myself at home with a [Raspberry Pi](http://www.raspberrypi.org/) are Hosting Service Provider, HSP. These people have a common objective of offering a store (or marketplace) for their end user to choose between their applications. We understand store as defined by the [IndieWeb community](http://indiewebcamp.com/store).
+We'll also speak about people or companies that provide hosting services for these Internet Applications. For instance, [Gandi](https://www.gandi.net/), [OVH](https://www.ovh.com/), [riseup](https://riseup.net/), [ecobytes](http://ecobytes.net/about) and myself at home with a [Raspberry Pi](http://www.raspberrypi.org/) are Hosting Service Provider, HSP. These people have a common objective of offering a store (or marketplace) for their end user to choose between their applications. We understand store as defined by the [IndieWeb community](http://indiewebcamp.com/store).
 
 ## 1. Project plan
 
-The project aims to build a network of independent HSP providing FOSIA.
+The project aims to build a network of independent HSPs providing FOSIA.
 
-The first goal is to define a standard FOSIA store. This standard defines how to package an application, its dependencies, and the data associated created during runtime. It will allow any users of any HSP to migrate easily his application from one HSP to another.
+The first goal is to define a standard FOSIA store. This standard defines how to package an application, its dependencies, and the associated data created during runtime. It will allow any user of any HSP to migrate his application instance easily from one HSP to another.
 
-The second goal is to make an implementation of such a store. This implementation will aim firstly at hosting personal indie website and personal data server, based on existing FOSIA. It will allow experienced system administrators to start their own HSP.
+The second goal is to make an implementation of such a store. This implementation will aim firstly at hosting personal indie websites and personal data servers for people, based on existing FOSIA. It will allow experienced system administrators to start their own HSP.
 
-The third and main goal is to develop this network of independent HSP. We believe that local and small scale HSP are the way to fight against the ongoing gravitation of infrastructure and power to the "center" of the Internet, e.g., google, facebook. And we believe it is the right time to do it, for three reasons:
-- people are ever more aware of the need to [redecentralize](http://redecentralize.org/) the Internet
+The third and main goal is to develop a network of independent HSP. We believe that local and small-scale HSPs are the way to fight against the ongoing gravitation of infrastructure and power to the "center" of the internet, e.g., Google, Facebook. And we believe it is the right time to do it, for three reasons:
+- people are ever more aware of the need to [redecentralize](http://redecentralize.org/) the internet
 - automation tools start to be mature
 - hardware is ever cheaper
 
-It will allow us to build blazing simple tools, for powerful and resilient HSP. And more importantly, users will be free to migrate their data and applications between HSP.
+It will allow us to build blazing simple tools, for powerful and resilient HSPs. And more importantly, users will be free to migrate their data and applications between HSPs.
 
-### 1.1. the problem solved by this project
+### 1.1. The problem solved by this project
 
-Let's say, there is a bug on Internet, e.g., gmail is spying on private conversations. Software engineers have power to resolve bugs. They write a piece of software, e.g., [mailpile](https://www.mailpile.is/). People will install the source code on their server, bug solved! But most of people online don't even know what a server is and even less, what source code means. Did you realize that if you go to many FOSIA project pages, you just have a `demo` possibility at best (e.g. [mailpile](https://www.mailpile.is/), [YunoHost](https://yunohost.org/)) and a `download the source code` for the worsts. Why not having a classic `sign up` button? We propose to implement this sign up button by standardizing FOSIA store. We will write an implementation that will allow having a simple way to provision the Internet application for the end user, from the HSP of his choice.
+Let's say, there is a bug on internet, e.g., gmail is spying on private conversations. Software engineers have power to resolve bugs. They write a piece of software, e.g., [mailpile](https://www.mailpile.is/). People will install the source code on their server, bug solved! But most of people online don't even know what a server is and even less, what source code means. Did you realize that if you go to many FOSIA project pages, you just have a `demo` possibility at best (e.g. [mailpile](https://www.mailpile.is/), [YunoHost](https://yunohost.org/)) and a `download the source code` for the worsts. Why not having a classic `sign up` button? We propose to implement this sign up button by standardizing FOSIA store. We will write an implementation that will allow having a simple way to provision the internet application for the end user, from the HSP of his choice.
 
 Today, there is no such standard, and we believe it is something missing. We can see the emergence of [Dockerfiles](http://docs.docker.com/reference/builder/) and [Vagrantfiles](http://docs.vagrantup.com/v2/vagrantfile/index.html) around FOSIA projects. But this doesn't care about application data that are created at runtime. And these files are aimed primarly at developers. The problem to solve is how to transfer a running FOSIA from an HSP to another. How to write a standard manifest file. How to write a standard store.
 
@@ -56,11 +56,11 @@ When the standard is written, we'll work to promote it. We hope that many HSP an
 
 As more and more people are concerned about their privacy and data ownership, we see more and more projects in this area trying to solve this issue. Most of them are software based, but without the service in mind. Even worse, there is no interoperability in mind. But we see that ever more people are interested. So in terms of development, this is a really interesting area to focus on. And so the ultimate goal is for all people have their [Freedom Box](https://freedomboxfoundation.org/) at home. In the mean time, as it is still complicated for most of the people, we offer them this hosted solution.
 
-We believe that redecentralizing the Internet is the most important mission we have today. And this standard is one more step closer.
+We believe that redecentralizing the internet is the most important mission we have today. And this standard is one more step closer.
 
 ###  1.5. relevance for nlnet's mission
 
-We believe writing software to make the Internet a better place is nice. But it is not worth the effort if nobody is willing to host it. We offer to solve this challenge. Hosting Free and Open Source Software is the way to help people (not just geeks) escape mass surveillance, and getting back data ownership.
+We believe writing software to make the internet a better place is nice. But it is not worth the effort if nobody is willing to host it. We offer to solve this challenge. Hosting Free and Open Source Software is the way to help people (not just geeks) escape mass surveillance, and getting back data ownership.
 
 ## 2. Existing work by others
 
@@ -196,14 +196,14 @@ To mitigate this risk, we really need to focus on involving the community as soo
 
 For the implementation phase, the first risk is that we don't manage to convince people that our solution is better than YouNameIt SaaS. Most of people nowadays use proprietary SaaS and get used to their simplicity and integration. We know that our solution will be a bit more complicated and less integrated. At the beginning, it will be of course impossible to reach a user experience à la Apple. Plus, for our IndieHosters network long term sustainability, we aim at a pay-what-you-like model (like wikipedia) to finance salaries of hosters. It might be difficult to convince people to give money for a software they can have in exchange of their private data (which people value less and less).
 
-To mitigate this risk we aim firstly at people aware of privacy issues on Internet. We hope this circle of early adopters will convince their circles, and little by little reach critical mass.
+To mitigate this risk we aim firstly at people aware of privacy issues on internet. We hope this circle of early adopters will convince their circles, and little by little reach critical mass.
 
 For the long term sustainability, we aim our standard to all kind of hosters:
 - for-profit hosters (e.g. [Gandi](https://www.gandi.net/), [OVH](https://www.ovh.com/))
 - hosters reselling personal data (we are fine with that as long as the end user is aware)
 - non-profit hosters (e.g. [riseup](https://riseup.net/), [ecobytes](http://ecobytes.net/about), [IndieHosters](https://indiehosters.net/))
 
-We find this way to be really healthy ecosystem. Then users will have choice among HSP. And if they want to pay with their private data, they'll also be free to do so. At least this is a closer definition of what we call an open and free (like in freedom) Internet.
+We find this way to be really healthy ecosystem. Then users will have choice among HSP. And if they want to pay with their private data, they'll also be free to do so. At least this is a closer definition of what we call an open and free (like in freedom) internet.
 
 ## 8. Project results dissemination
 
