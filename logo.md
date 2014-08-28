@@ -4,11 +4,11 @@
 
 ### Activities
 
-Our goal is to provide hosting service for free, and as easy as possible to people with minimum knowledge.
+Our goal is to provide personal server hosting, independent from the big platforms that spy on your data.
 
 ### Business Model
 
-Donation based. If we reach 15k users, then it would cost 1€/user/year. So we could work donation based
+Donation based. If we reach 15k users, then it would cost 1€/user/year. So we could work donation based. Also, we offer a personal service to someone who want to run their own server, but doesn't have the time or the skills. And you are always assigned one specific IndieHoster, which is your personal server administrator. In this sense, it's a bit like a personal shopper who helps you shop, a personal trainer who helps you in the gym, or any other kind of personnel you may hire if you're really rich, like a housemaid, a cook, or a dog walker. Our service will also be quite a unique niche service, which very few competitors (if any) are currently offering. This means we could easily ask yuppies for more money (while still taking on poor customers as pro bono).
 
 ### Number of employees
 
@@ -19,6 +19,8 @@ Donation based. If we reach 15k users, then it would cost 1€/user/year. So we 
 Growing concern of citizens, coming actors, so it is a growing sector
 
 ### Concurrents (not really opponent, but similar in the goal)
+- all existing ownCloud providers (I think they are listed on http://www.owncloud.org/providers)
+- existing small-scale and "nice" hosting providers like ueberhost (see recent discussion on fsfeurope.org discussion mailing list)
 - www.sandstorm.io
 - withknown.com
 - wordpress.com, tumblr.com, blog/cms platforms
