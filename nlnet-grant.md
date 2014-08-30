@@ -8,14 +8,14 @@ We'll also speak about people or companies that provide hosting services for the
 
 ## 1. Project plan
 
-The project aims to build a network of independent HSPs providing FOSIA.
+The project aims to build a network of independent HSPs of FOSIA. We call this network IndieHosters.
 
 The first goal is to define a standard FOSIA store. This standard defines how to package an application, its dependencies, and the associated data created during runtime. It will allow any user of any HSP to migrate his application instance easily from one HSP to another.
 
 The second goal is to make an implementation of such a store. This implementation will aim firstly at hosting personal indie websites and personal data servers for people, based on existing FOSIA. It will allow experienced system administrators to start their own HSP.
 
-The third and main goal is to develop a network of independent HSP. We believe that local and small-scale HSPs are the way to fight against the ongoing gravitation of infrastructure and power to the "center" of the internet, e.g., Google, Facebook. And we believe it is the right time to do it, for three reasons:
-- people are ever more aware of the need to [redecentralize](http://redecentralize.org/) the internet
+The third and main goal is to develop a network of independent HSPs. We believe that local and small-scale HSPs are the way to fight against the ongoing gravitation of infrastructure and power to the "center" of the Internet, e.g., Google, Facebook. And we believe it is the right time to do it, for three reasons:
+- people are ever more aware of the need to [redecentralize](http://redecentralize.org/) the Internet
 - automation tools start to be mature
 - hardware is ever cheaper
 
@@ -23,9 +23,9 @@ It will allow us to build blazing simple tools, for powerful and resilient HSPs.
 
 ### 1.1. The problem solved by this project
 
-Let's say, there is a bug on internet, e.g., gmail is spying on private conversations. Software engineers have power to resolve bugs. They write a piece of software, e.g., [mailpile](https://www.mailpile.is/). People will install the source code on their server, bug solved! But most of people online don't even know what a server is and even less, what source code means. Did you realize that if you go to many FOSIA project pages, you just have a `demo` possibility at best (e.g. [mailpile](https://www.mailpile.is/), [YunoHost](https://yunohost.org/)) and a `download the source code` for the worsts. Why not having a classic `sign up` button? We propose to implement this sign up button by standardizing FOSIA store. We will write an implementation that will allow having a simple way to provision the internet application for the end user, from the HSP of his choice.
+Let's say, there is a bug on Internet, e.g., gmail is spying on private conversations. Software engineers have power to resolve bugs. If they want to solve this particular bug, they write a FOSIA, e.g., [mailpile](https://www.mailpile.is/). People will install the source code on their server, bug solved! But most of people online don't what a server is and even less, what source code means. Did you realize that if you go to many FOSIA project pages, you just have a `demo` possibility at best (e.g. [mailpile](https://www.mailpile.is/), [YunoHost](https://yunohost.org/)) and a `download the source code` in the worst case. Why not having a classic `sign up` button? We propose to implement this sign up button by standardizing FOSIA store. We will write an implementation that will allow having a simple way to provision the Internet application for the end user, from the HSP of his choice.
 
-Today, there is no such standard, and we believe it is something missing. We can see the emergence of [Dockerfiles](http://docs.docker.com/reference/builder/) and [Vagrantfiles](http://docs.vagrantup.com/v2/vagrantfile/index.html) around FOSIA projects. But this doesn't care about application data that are created at runtime. And these files are aimed primarly at developers. The problem to solve is how to transfer a running FOSIA from an HSP to another. How to write a standard manifest file. How to write a standard store.
+Today, there is no such standard, and we believe it is something missing. We can see the emergence of [Dockerfiles](http://docs.docker.com/reference/builder/) and [Vagrantfiles](http://docs.vagrantup.com/v2/vagrantfile/index.html) around FOSIA projects. But this doesn't care about application data created during runtime. And these files are aimed primarly at developers. The problem to solve is how to transfer a running FOSIA from an HSP to another. How to write a standard manifest file. How to write a standard store.
 
 ###  1.2. the relative advantage of the proposed innovation
 
@@ -36,7 +36,7 @@ We are aiming at creating a FOSIA store, and the only people that are trying to 
 - [Sandstorm](https://sandstorm.io/)
 - [arkos](https://arkos.io/)
 
-There is also [ownCloud](http://owncloud.org/) and [Cozy](http://cozy.io/), but they take the party of rewriting all FOSIA to offer an integrated user experience (which is also a valid path in our opinion).
+There is also [ownCloud](http://owncloud.org/) and [Cozy](http://cozy.io/), but they take the party of rewriting all FOSIA to offer an integrated user experience (à la Google Apps) (which is also a valid path in our opinion).
 
 But nobody is thinking about the interoperability of such store. So we propose to solve this challenge and offer them to follow the standard. We'll work closely with these people during all the standard creation process.
 
@@ -54,13 +54,13 @@ And then, during the implementation phase , we target a geek (woman or man). She
 
 When the standard is written, we'll work to promote it. We hope that many HSP and many stores will adopt the standard and open their implementation.
 
-As more and more people are concerned about their privacy and data ownership, we see more and more projects in this area trying to solve this issue. Most of them are software based, but without the service in mind. Even worse, there is no interoperability in mind. But we see that ever more people are interested. So in terms of development, this is a really interesting area to focus on. And so the ultimate goal is for all people have their [Freedom Box](https://freedomboxfoundation.org/) at home. In the mean time, as it is still complicated for most of the people, we offer them this hosted solution.
+As more and more people are concerned about their privacy and data ownership, we see more and more projects in this area trying to solve this issue. Most of them are software based, but without the service in mind. Even worse, there is no interoperability in mind. But we see that ever more people are interested. So in terms of development, this is a really interesting area to focus on. And so the ultimate goal is for all people have their [Freedom Box](https://freedomboxfoundation.org/) at home. In the mean time, as it is still complicated for most, we offer this hosted solution.
 
-We believe that redecentralizing the internet is the most important mission we have today. And this standard is one more step closer.
+We believe that redecentralizing the Internet is the most important mission we have today. And this standard is one more step closer.
 
-###  1.5. relevance for nlnet's mission
+###  1.5. relevance for NLnet's mission
 
-We believe writing software to make the internet a better place is nice. But it is not worth the effort if nobody is willing to host it. We offer to solve this challenge. Hosting Free and Open Source Software is the way to help people (not just geeks) escape mass surveillance, and getting back data ownership.
+We believe writing FOSIA to make the Internet a better place is nice. But it is not worth the effort if nobody is willing to host it. We offer to solve this challenge. Hosting Free and Open Source Software is the way to help people (not just geeks) escape mass surveillance, and getting back data ownership.
 
 ## 2. Existing work by others
 
@@ -84,7 +84,7 @@ There is also the great work of the [IndieWeb community](http://indiewebcamp.com
 
 We are at early stage of the project, and you can follow progress on our [GitHub account](https://github.com/indiehosters/). At the HSP level, we already have static sites working with IPv6+SNI+SPDY, and an instance of [YunoHost](https://yunohost.org/). This allows us to provide emails and jabber for our end users.
 
-We'll start experimenting to switch these services from our 2 HSP, and from this experience, start to write the standard store. We'll also start communicating on this idea soon, among the community of these softwares.
+We'll start experimenting to switch these services between our 2 HSP, and from this experience, start to write the standard store. We'll also start communicating on this idea soon, among the community of these softwares.
 
 ## 4. Project setup
 
@@ -92,7 +92,7 @@ We'll start experimenting to switch these services from our 2 HSP, and from this
 
 #### Standard FOSIA store
 
-We firstly need to write a standard FOSIA store, with data that are created at runtime.
+We firstly need to write a standard FOSIA store, with data created during runtime.
 
 #### Implementation
 
@@ -104,11 +104,11 @@ The goal is to entirely fund this by donations and its goals are entirely non-pr
 
 ### 4.3 Licences
 
-We aim to research, publish and educate. We publish everything under AGPL for software, and Creative Commons licenses for everything else.
+We, through this project, aim to research, publish and educate. We publish everything under AGPL for software, and Creative Commons licenses for everything else.
 
 ### 4.4 People
 
-The project will employ [Michiel de Jong](http://www.linkedin.com/in/michielbdejong) and [Pierre Ozoux](http://www.linkedin.com/in/pierreozoux) as full-time free-lance contractor. Once the network is running in production, each IndieHoster will bill his or her own users directly, possibly with a freemium or pay-what-you-like model.
+The project will employ [Michiel de Jong](http://www.linkedin.com/in/michielbdejong) and [Pierre Ozoux](http://www.linkedin.com/in/pierreozoux) as full-time free-lance contractors. Once the network is running in production, each IndieHoster will bill his or her own users directly, possibly with a freemium or pay-what-you-like model.
 
 Much of the expertise Michiel brings to the project, was built up as founder at [unhosted](https://unhosted.org/).
 
@@ -179,7 +179,7 @@ It means that:
 - implementation stable release: 6000 euros
 
 Two financing plans are thought:
-- the perfect one: NLnet finances the standard and the implementation.
+- the perfect plan: NLnet finances the standard and the implementation.
 - if it is not possible, we ask NLnet to kindly finance the standard, and we take care of financing the implementation through crowdfunding and freelance.
 
 In the later case, the stable release of the implementation would be delayed by at least one month (time to prepare crowdfunding campaign) if the crowdfunding is successful. Or many months in case we have to freelance to finish the project.
@@ -194,16 +194,16 @@ To mitigate this risk, we really need to focus on involving the community as soo
 
 ###  7.2. End users Adoption
 
-For the implementation phase, the first risk is that we don't manage to convince people that our solution is better than YouNameIt SaaS. Most of people nowadays use proprietary SaaS and get used to their simplicity and integration. We know that our solution will be a bit more complicated and less integrated. At the beginning, it will be of course impossible to reach a user experience à la Apple. Plus, for our IndieHosters network long term sustainability, we aim at a pay-what-you-like model (like wikipedia) to finance salaries of hosters. It might be difficult to convince people to give money for a software they can have in exchange of their private data (which people value less and less).
+For the implementation phase, the first risk is that we don't manage to convince people that our solution is better than YouNameIt SaaS. Most of people nowadays use proprietary SaaS and get used to their simplicity and integration. We know that our solution will be a bit more complicated and less integrated. At the beginning, it will be of course impossible to reach a user experience à la Apple. Plus, for our IndieHosters network long term sustainability, we aim at a pay-what-you-like model (like wikipedia) to finance salaries of hosters. It might be difficult to convince people to give money for a software they could otherwise have in exchange of their private data (which people value less and less).
 
-To mitigate this risk we aim firstly at people aware of privacy issues on internet. We hope this circle of early adopters will convince their circles, and little by little reach critical mass.
+To mitigate this risk we aim firstly at people aware of privacy issues on Internet. We hope this circle of early adopters will convince their circles, and little by little reach critical mass.
 
 For the long term sustainability, we aim our standard to all kind of hosters:
 - for-profit hosters (e.g. [Gandi](https://www.gandi.net/), [OVH](https://www.ovh.com/))
 - hosters reselling personal data (we are fine with that as long as the end user is aware)
 - non-profit hosters (e.g. [riseup](https://riseup.net/), [ecobytes](http://ecobytes.net/about), [IndieHosters](https://indiehosters.net/))
 
-We find this way to be really healthy ecosystem. Then users will have choice among HSP. And if they want to pay with their private data, they'll also be free to do so. At least this is a closer definition of what we call an open and free (like in freedom) internet.
+We find this way to be really healthy ecosystem. Then users will have choice among HSP. And if they want to pay with their private data, they'll also be free to do so. At least this is a closer definition of what we call an open and free (like in freedom) Internet.
 
 ## 8. Project results dissemination
 
@@ -215,6 +215,6 @@ It will be a win/win partnership. FOSIA developers will be happy because they wi
 
 ## 9. Follow-ups on the project
 
-This is a long term project. We ask NLnet to help to bootstrap it, but we hope to be sustainable after stable release (thanks to donations). So the followup is as soon as it is stable, we add more and more FOSIA to our store implementation.
+This is a long term project. We ask NLnet to help to bootstrap it, but we hope to be sustainable after a stable release (thanks to donations). So the followup is as soon as it is stable, we add more and more FOSIA to our store implementation.
 
 If we don't have anymore funding, that's also fine. If enough people are using our store implementation, more and more HSP will use it also. So the community will be able to maintain the implementation by itself. And us, the founders, will continue to maintain our HSP and provide FOSIA (added by the community) to our users.
