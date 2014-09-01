@@ -8,7 +8,7 @@ The data archive should be either a gzipped tar file or a zip file, containing a
 
 ## Base Folder Structure
 
-There should be at least one directory in the directory tree root, named as the domain name to be hosted. In each such directory, there should then be two subdirectories: 'yunohost' and 'bouncer'. These store date for the `server-wide/yunohost` and `server-wide/bouncer` docker images from https://github.com/indiehosters/dockerfiles.git. Additional folders should match a subdirectory of the `per-user` directory in the same git repository, and store data as defined by those Docker containers.
+There should be at least one directory in the directory tree root, named as the domain name to be hosted. In each such directory, there should then be two subdirectories: 'yunohost' and 'bouncer'. These store data for the `server-wide/yunohost` and `server-wide/bouncer` docker images from https://github.com/indiehosters/dockerfiles.git. Additional folders should match a subdirectory of the `per-user` directory in the same git repository, and store data as defined by those Docker containers.
 
 ## Semantics
 
