@@ -1,21 +1,26 @@
-Initial status:
+# Initial status:
   - kept safe by Pierre: 0
   - kept safe by Michiel: 0
 
-Activity October 2014:
+# Activity October 2014:
 
-# Money in:
+## Money in:
 
 * (M) Bootstrap donation from the Unhosted project 6000 EUR
 
-# Money out:
+## Money out:
 
-Worked:
+### Worked:
+
 * Week of 29 Sept:
      S T Q Q S S D
-  P: 0 0 6 6 (11:00-
-  M: 0 0 6 4 (11:00-
+  P: 0 0 6 6 7     -> 19 * 10 EUR = 190 EUR
+  M: 0 0 6 4 7     -> 17 * 10 EUR = 170 EUR
 
-Franchise-wide expenses:
+### Franchise-wide expenses:
 
-* (M) DNR indiehosters.net/org/com ??? EUR
+* (M) DNR indiehosters.net/org/com 26.60 EUR
+
+# End status:
+  - kept safe by Michiel: 0 + 6000 - 26.60 - 170 = 5803.40 EUR
+  - kept safe by Pierre: 0 - 190 = -190 EUR
