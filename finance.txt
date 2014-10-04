@@ -15,7 +15,7 @@
 * Week of 29 Sept:
      S T Q Q S S D
   P: 0 0 6 6 7     -> 19 * 10 EUR = 190 EUR
-  M: 0 0 6 4 7     -> 17 * 10 EUR = 170 EUR
+  M: 0 0 6 4 7 4
 
 ### Franchise-wide expenses:
 
