@@ -1,12 +1,15 @@
 # 1: The Problem
 
-* Hosting software is important infrastructure for humanity, but it is controlled too much by strong multinationals
+* Hosted software is important infrastructure for humanity, but it is controlled too much by strong multinationals
 * A lot of grassroots projects have developed free software which offers similar functionality, and which you can run on your own server.
 * However, in practice very few people choose to use such host-it-yourself software, because it is too much (complicated) work.
-* There are several "meta-software" projects which make it easier to manage your own server, but even with them, it remains a complicated task.
 * Some hosting providers offer "one-click install" for some software products, but for a user who does not necessarily know what the difference
     between a caching name server and an authoritative name server is, the sign-up process is still orders of magnitude more complicated than
     signing up for Facebook, Tumblr, Twitter, or Gmail.
+* There are several "meta-software" projects which make it easier to manage your own server, but even with them, you need to get a (virtual)
+    server somewhere first, and if you have never used ssh or ftp before, it remains a complicated task.
+* There are several "plugserver" projects, but in practice, using your house as a datacenter location is in itself an unattractive option for
+    all but a small niche of the hosted software market.
 
 # 2: The Plan
 
