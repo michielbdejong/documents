@@ -30,5 +30,5 @@
 * Sign-up will be truly one-click, including the domain name registration, DNS setup, and TLS certificate installation.
 * Publish: share content on your own website, using an app like Idno, Wordpress, Ghost, etcetera.
 * Store: keep your data and files in one place which you control, using an app like ownCloud, Cozy, Mediagoblin, etcetera.
-* Communicate: use your own server for email, chat, voice, video calls, etcetera.
+* Communicate: use your own server for email, chat, telephony, video calls, etcetera.
 * Niche: Explore exciting decentralized technology like MozillaCloud, Gitlab, remoteStorage, etcetera.
