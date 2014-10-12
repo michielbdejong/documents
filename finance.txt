@@ -15,12 +15,17 @@
 * Week of 29 Sept:
      S T Q Q S S D
   P: 0 0 6 6 7     -> 19 * 10 EUR = 190 EUR
-  M: 0 0 6 4 7 4 0 -> 21 * 10 EUR = 210 EUR
+  M: 0 0 6 4 7 4   -> 21 * 10 EUR = 210 EUR
 
 * Week of 6 Oct:
      S T Q Q S S D
   P: 8 0 5:30
-  M: 8 8 8 1 8
+  M: 8 8 8 1 8   2 -> 35 * 10 EUR = 350 EUR
+
+* Week of 13 Oct:
+     S T Q Q S S D
+  P:
+  M:
 
 ### Franchise-wide expenses:
 
@@ -29,5 +34,5 @@
 * (M) DNR indiehoster.net/org/com 28.15 EUR
 
 # End status:
-  - kept safe by Michiel: 0 + 6000 - 210 - 26.60 - 198 - 28.15 = ...
+  - kept safe by Michiel: 0 + 6000 - 210 - 350 - 26.60 - 198 - 28.15 = ...
   - kept safe by Pierre: 0 - 190 = -190 EUR
