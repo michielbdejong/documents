@@ -19,7 +19,7 @@
 
 * Week of 6 Oct:
      S T Q Q S S D
-  P: 8 0 5:30
+  P: 8 0 6 1 7     -> 22 * 10 EUR = 220 EUR
   M: 8 8 8 1 8   2 -> 35 * 10 EUR = 350 EUR
 
 * Week of 13 Oct:
@@ -35,4 +35,4 @@
 
 # End status:
   - kept safe by Michiel: 0 + 6000 - 210 - 350 - 26.60 - 198 - 28.15 = ...
-  - kept safe by Pierre: 0 - 190 = -190 EUR
+  - kept safe by Pierre: 0 - 190 - 220
