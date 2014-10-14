@@ -1,19 +1,3 @@
-Sprint 0 (1 Oct - 12 Oct)
-===============
-## Status: Complete
-## Goal: Basic infrastructure
-Based on the ideas we have been gathering before our official start date,
-agree on a common infrastructure for our hosting setup.
-
-## Steps:
-* discuss what technology we want to use
-* Write a setup script using docker, systemd, etcd, and confd on coreos
-* Get haproxy working with SNI in front of multiple applications
-* Get wordpress+mysql and nginx working with automated blueprint import
-* Set up basic best-practice instructions of how to manage servers, certs, data
-* Set up deploy system combining infrastructure, dockerfiles, and dev-scripts
-
-## Goal: MVP
 Sprint 1 (starting 13 Oct)
 ===============
 ## Status: Started
@@ -29,11 +13,11 @@ In this sprint we will complete our MVP consisting of:
 - instructions on how to migrate your domain and site to your own server
 
 ## Steps:
-* (M) set up mail forwards
-* add a statics+git-hook image
-* (P) Pierre to update to https and to confd for his live sites
-* Michiel to update to confd for his live sites
-* automatic failover (DNS round-robin static sites)
+* [ ] (M) set up mail forwards
+* [ ] add a statics+git-hook image
+* [x] (P) Pierre to update to https and to confd for his live sites
+* [x] Michiel to update to confd for his live sites
+* [ ] automatic failover (DNS round-robin static sites)
 
 
 Sprint 2 (starting when sprint 1 completes)
