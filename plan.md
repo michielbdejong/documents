@@ -13,12 +13,12 @@ In this sprint we will complete our MVP consisting of:
 - instructions on how to migrate your domain and site to your own server
 
 ## Steps:
+* [ ] (P) Look into 503 errors
 * [ ] (M) set up mail forwards
 * [ ] add a statics+git-hook image
-* [x] (P) Pierre to update to https and to confd for his live sites
+* [x] Pierre to update to https and to confd for his live sites
 * [x] Michiel to update to confd for his live sites
 * [ ] automatic failover (DNS round-robin static sites)
-
 
 Sprint 2 (starting when sprint 1 completes)
 ===============

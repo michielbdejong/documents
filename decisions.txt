@@ -10,3 +10,20 @@
   - haproxy
   - setup.sh, adduser.sh
 - eventually, look at VOLUMES from Dockerfile to generate the blueprint and the list of which host paths to mount
+
+- website:
+  - blue screen from Cami
+  - static blog with jekyll
+
+- product:
+  - step 1: money + email address
+  - super-simple-to-use update by email product:
+    - do you have a pseudonym?
+    - choose domain name from these 5 options
+    - send us a photo and short text
+    - links to your silo accounts
+  - other edit options from there on:
+    - via email/chat/person/voice/... (photo/text update)
+    - via ... (html)
+    - via ... (blog post)
+    - the git repo we should be polling with our cron jobs
