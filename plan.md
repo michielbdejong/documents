@@ -14,7 +14,7 @@ In this sprint we will complete our MVP consisting of:
 
 ## Steps:
 * [ ] (P) Look into 503 errors
-* [ ] (M) set up mail forwards
+* [x] (M) set up mail forwards
 * [ ] add a statics+git-hook image
 * [x] Pierre to update to https and to confd for his live sites
 * [x] Michiel to update to confd for his live sites
@@ -28,7 +28,7 @@ This sprint is more about organization and marketing than the previous one. Now 
 have our MVP, we will start selling it!
 
 ## Steps:
-* design our website
+* (P) design our website
 * open up for business (IndieGoGo? pickandboost?)
 
 
