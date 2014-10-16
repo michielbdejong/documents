@@ -13,8 +13,8 @@
 
 ## Content
 
-Resume your project in 140chars
-Define problem
-Solution we bring
-Why CrowdFunding
-detail budget
+- Resume your project in 140chars
+- Define problem
+- Solution we bring
+- Why CrowdFunding
+- detail budget
