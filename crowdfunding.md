@@ -2,6 +2,12 @@
 
 ## Video
 
+- Pitch
+- screen with docker and CoreOS commands
+- testimonials
+  - people saying they believe in our project
+  - alpha testers
+
 ## Plateforme
 
 - bountysource
