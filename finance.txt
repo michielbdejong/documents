@@ -24,14 +24,20 @@
 
 * Week of 13 Oct:
      S    T Q Q S S D
-  P: 5:30 7 7
+  P: 5:30 7 7 7 8:30
   M: 5    9 7 3 6
+
+* Week of 20 Oct:
+     S    T Q Q S S D
+  P: 7:30 7 6
+
 
 ### Franchise-wide expenses:
 
 * (M) DNR indiehosters.net/org/com 26.60 EUR
 * (M) Coworking space for bootstrap period 198 EUR
 * (M) DNR indiehoster.net/org/com 28.15 EUR
+* (P) Communication 200 EUR
 
 # End status:
   - kept safe by Michiel: 0 + 6000 - 210 - 350 - 26.60 - 198 - 28.15 = ...
