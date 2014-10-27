@@ -27,3 +27,8 @@
     - via ... (html)
     - via ... (blog post)
     - the git repo we should be polling with our cron jobs
+
+- launch phases:
+  - hackernews phase -> make hackernews readers enthusiastic, build following
+  - crowd-funding phase -> appeal to people who gave money to diaspora, mailpile, sandstorm, ind.ie, etc.
+  - live phase -> compete with "normal" hosting providers on share/connect/store, and start conquering niche markets (biggest first)

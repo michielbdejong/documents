@@ -23,13 +23,19 @@
   M: 8 8 8 1 8   2 -> 35 * 10 EUR = 350 EUR
 
 * Week of 13 Oct:
-     S    T Q Q S S D
-  P: 5:30 7 7 7 8:30
-  M: 5    9 7 3 6
+     S    T Q Q S    S D
+  P: 5:30 7 7 7 8:30     -> 35 * 10 EUR = 350 EUR
+  M: 5    9 7 3 6        -> 30 * 10 EUR = 300 EUR
 
 * Week of 20 Oct:
      S    T Q Q S    S D
-  P: 7:30 7 6 7 4:30
+  P: 7:30 7 6 7 4:30     -> 32 * 10 EUR = 320 EUR
+  M: 2                   -> 2 * 10 EUR = 20 EUR
+
+* Week of 27 Oct:
+     S T Q Q S S D
+  P: 
+  M: 6
 
 * Week of 27 Oct:
      S    T Q Q S S D
@@ -44,5 +50,5 @@
 * (P) Communication 200 EUR
 
 # End status:
-  - kept safe by Michiel: 0 + 6000 - 210 - 350 - 26.60 - 198 - 28.15 = ...
-  - kept safe by Pierre: 0 - 190 - 220
+  - kept safe by Michiel: 0 + 6000 - (210 + 350 + 300 + 20) - (26.60 + 198 + 28.15) = 4867.25 EUR
+  - kept safe by Pierre: 0 - (190 + 220 + 350 + 320) - (200) = -1280 EUR
