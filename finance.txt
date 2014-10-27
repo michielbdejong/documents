@@ -32,6 +32,11 @@
   P: 7:30 7 6 7 4:30     -> 32 * 10 EUR = 320 EUR
   M: 2                   -> 2 * 10 EUR = 20 EUR
 
+* Week of 27 Oct:
+     S T Q Q S S D
+  P: 
+  M: 6
+
 
 ### Franchise-wide expenses:
 
