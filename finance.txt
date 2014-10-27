@@ -28,8 +28,8 @@
   M: 5    9 7 3 6
 
 * Week of 20 Oct:
-     S    T Q Q S S D
-  P: 7:30 7 6
+     S    T Q Q S    S D
+  P: 7:30 7 6 7 4:30
 
 
 ### Franchise-wide expenses:
