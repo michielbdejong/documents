@@ -28,7 +28,9 @@ In this sprint we will complete our MVP consisting of:
 * [x] Pierre to update to https and to confd for his live sites
 * [x] Michiel to update to confd for his live sites
 * [x] automatic failover (DNS round-robin static sites)
-* [ ] (M) put github pull in systemd-equivalent of crontab
+* [x] (M) put github pull in systemd-equivalent of crontab
+* [ ] Update our servers and DNS zones
+* [ ] Tag 0.1.0 on gh:indiehosters/indiehosters
 
 Sprint 2 (starting when sprint 1 completes)
 ===============
