@@ -35,7 +35,7 @@
 * Week of 27 Oct:
      S    T Q Q S S D
   P: 8:30
-  M: 6
+  M: 6    8
 
 ### Franchise-wide expenses:
 
