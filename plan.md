@@ -1,23 +1,40 @@
-### Goals for Tue 28 Oct:
-
-* P: fix website build script
-* P: add website signup using wordpress newsletter plugin
-* ?: first blog post, twitter integration, rss icon in Follow Us
-* ?: launch the website
-
-Sprint 2 (started 28 Oct)
+Sprint 2 (starting 30 Oct)
 ===============
 
-## Goal: Get followers
+### First feedback round
 
-## Steps:
-* [x] (P) design our website
-* [x] (M+P) each set up one server running the MVP
-* [ ] launch website
-* [ ] (M+P) connect with opinion leaders
+* launch the website
+* get feedback from own friends (tech alphas, end users, whoever)
+* compare and incorporate first feedback round
 
-
-Sprint 3 (starting when sprint 2 completes)
+Sprint 3 (starting once first feedback round has been incorporated)
 ===============
 
-## Goal: Crowdfunding
+### Second feedback round
+
+* post on mailing lists, forums etc.
+* follow opinion leaders on Twitter, get their feedback
+* get feedback from whoever replies
+* compare and incorporate second feedback round
+
+Sprint 5 (starting once second feedback round has been incorporated)
+===========
+
+### Crowdfunding preparation
+
+* design crowdfunding campaign
+* record video
+* try to ramp up momentum
+
+Sprint 6
+========
+
+### Crowdfunding itself
+
+Sprint 7
+========
+
+### First customers
+
+* Find out what our own friends need, build it, let them test it
+* Fulfill crowdfunding perks
