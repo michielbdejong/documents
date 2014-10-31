@@ -1,3 +1,11 @@
+# Stand-up Fri 31 Oct:
+* (P) work for alpha users
+* (P) update personal online presence as IndieHosters co-founder
+* (M) update personal online presence as IndieHosters co-founder
+* (M) think about the new initial income plan based on just v0.1 + bountysource
+* (M) think about LAMP product
+* (M) start communicating with slightly broader circle of people
+
 Sprint 2 (starting 30 Oct)
 ===============
 

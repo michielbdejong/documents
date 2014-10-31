@@ -32,3 +32,16 @@
   - hackernews phase -> make hackernews readers enthusiastic, build following
   - crowd-funding phase -> appeal to people who gave money to diaspora, mailpile, sandstorm, ind.ie, etc.
   - live phase -> compete with "normal" hosting providers on share/connect/store, and start conquering niche markets (biggest first)
+
+# five focus areas:
+- technical
+  - infrastructure
+  - applications
+- communication
+  - website
+  - talking to relevant people
+  - crowdfunding
+
+# crowdfunding:
+  - offer the base product (static hosting from git-url or email-attachment, with DNR and TLS), with T-shirt/sticker.
+  - everything else just bountysources.
