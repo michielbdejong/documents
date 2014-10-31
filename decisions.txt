@@ -41,3 +41,11 @@
   - website
   - talking to relevant people
   - crowdfunding
+
+# Initial income
+
+- redundancy-less wordpress for real customers
+- crowdfunding: basic MVP or redundancy-less Wordpress + T-shirt + sticker
+- bountysource (only claimable if you first become an IndieHoster):
+  - 100 EUR / LAMP product
+  - 1000 EUR any other stack
