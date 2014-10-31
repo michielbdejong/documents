@@ -4,11 +4,11 @@
   - MX relay
   - investigate: rsync + haproxy (extra bandwidth costs? extra lag? 98+1+1 DNS round robin?)
   - investigate: use iframes for traffic routing somehow?
-- architecture:
+- architecture, based on systemd, docker, haproxy, and some bash scripts:
   - docker
   - systemd with @.service templates
   - haproxy
-  - setup.sh, adduser.sh
+  - scripts/setup.sh, scripts/activate-user.sh
 - eventually, look at VOLUMES from Dockerfile to generate the blueprint and the list of which host paths to mount
 
 - website:
@@ -41,7 +41,3 @@
   - website
   - talking to relevant people
   - crowdfunding
-
-# crowdfunding:
-  - offer the base product (static hosting from git-url or email-attachment, with DNR and TLS), with T-shirt/sticker.
-  - everything else just bountysources.
