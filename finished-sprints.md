@@ -37,3 +37,12 @@ In this sprint we will complete our MVP consisting of:
 * [x] (M) put github pull in systemd-equivalent of crontab
 * [x] Update our servers and DNS zones
 * [x] Tag 0.1.0 on gh:indiehosters/indiehosters
+
+Sprint 2 (starting 30 Oct)
+===============
+
+### First feedback round
+
+* launch the website
+* get feedback from own friends (tech alphas, end users, whoever)
+* compare and incorporate first feedback round

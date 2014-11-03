@@ -1,15 +1,3 @@
-# Stand-up Fri 31 Oct:
-* (P) work for alpha users
-* (P) update personal online presence as IndieHosters co-founder
-
-Sprint 2 (starting 30 Oct)
-===============
-
-### First feedback round
-
-* launch the website
-* get feedback from own friends (tech alphas, end users, whoever)
-* compare and incorporate first feedback round
 
 Sprint 3 (starting once first feedback round has been incorporated)
 ===============
