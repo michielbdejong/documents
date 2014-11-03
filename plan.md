@@ -1,3 +1,8 @@
+# stand-up Mon 3 Nov:
+(M) create backups
+(P) clean up unit files
+(P) proofread Michiel's blogpost for today
+(M) proofread Pierre's blogpost for tomorrow
 
 Sprint 3 (starting once first feedback round has been incorporated)
 ===============
