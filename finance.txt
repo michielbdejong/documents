@@ -2,11 +2,15 @@
   - kept safe by Pierre: 0
   - kept safe by Michiel: 0
 
-# Activity October 2014:
+# Activity 2014:
 
 ## Money in:
 
 * (M) Bootstrap donation from the Unhosted project 6000 EUR
+
+## Transfer:
+
+* (M->P) IBAN transfer 3 Nov 2014, 1000 EUR
 
 ## Money out:
 
@@ -34,8 +38,8 @@
 
 * Week of 27 Oct:
      S    T    Q    Q S S D
-  P: 8:30 6:30 4:30 8 7 3
-  M: 6    8    6    8 7
+  P: 8:30 6:30 4:30 8 7 3   -> 37.5 * 10 EUR = 375 EUR
+  M: 6    8    6    8 7     -> 35 * 10 EUR = 350 EUR
 
 * Week of 3 Nov:
      S T Q Q S S D
@@ -50,5 +54,5 @@
 * (P) Communication 200 EUR
 
 # End status:
-  - kept safe by Michiel: 0 + 6000 - (210 + 350 + 300 + 20) - (26.60 + 198 + 28.15) = 4867.25 EUR
-  - kept safe by Pierre: 0 - (190 + 220 + 350 + 320) - (200) = -1280 EUR
+  - kept safe by Pierre: 0 + (1000) - (190 + 220 + 350 + 320 + 375) - (200) = -655 EUR
+  - kept safe by Michiel: 0 + 6000 - (1000) - (210 + 350 + 300 + 20 + 350) - (26.60 + 198 + 28.15) = 3517.25 EUR
