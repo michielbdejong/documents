@@ -1,37 +1,8 @@
-# stand-up Mon 3 Nov:
-(M) create backups
-(P) clean up unit files
-(P) proofread Michiel's blogpost for today
-(M) proofread Pierre's blogpost for tomorrow
-
-Sprint 3 (starting once first feedback round has been incorporated)
-===============
-
-### Second feedback round
-
-* post on mailing lists, forums etc.
-* follow opinion leaders on Twitter, get their feedback
-* get feedback from whoever replies
-* compare and incorporate second feedback round
-
-Sprint 5 (starting once second feedback round has been incorporated)
-===========
-
-### Crowdfunding preparation
-
-* design crowdfunding campaign
-* record video
-* try to ramp up momentum
-
-Sprint 6
-========
-
-### Crowdfunding itself
-
-Sprint 7
-========
-
-### First customers
-
-* Find out what our own friends need, build it, let them test it
-* Fulfill crowdfunding perks
+# stand-up Tue 4 Nov:
+(M) finish creating backups
+(P) finish cleaning up gitpuller
+(P) finish cleaning up subdir vs normal
+(P) publish cyber foundation blog post
+(P) ask Wordpress guy about https configuration
+(M) prepare blogpost about 0.2 release for tomorrow
+(M+P) tag 0.2 (see https://github.com/indiehosters/indiehosters/milestones)
