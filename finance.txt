@@ -42,9 +42,9 @@
   M: 6    8    6    8 7     -> 35 * 10 EUR = 350 EUR
 
 * Week of 3 Nov:
-     S T Q Q S S D
+     S T    Q Q S S D
   P: 
-  M: 7
+  M: 7 9:30
 
 ### Franchise-wide expenses:
 
