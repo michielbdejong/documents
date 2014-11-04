@@ -1,8 +1,14 @@
-# stand-up Tue 4 Nov:
-(M) finish creating backups
-(P) finish cleaning up gitpuller
-(P) finish cleaning up subdir vs normal
-(P) publish cyber foundation blog post
-(P) ask Wordpress guy about https configuration
-(M) prepare blogpost about 0.2 release for tomorrow
-(M+P) tag 0.2 (see https://github.com/indiehosters/indiehosters/milestones)
+# proposed plan for Wed 5 Nov:
+
+* immigration was moved forward from 0.3 to 0.2, because this is now easy
+* so i added an extra target of more lamp images already to the 0.3 milestone https://github.com/indiehosters/indiehosters/milestones 
+* finish refactor:
+  * (M+P) move TLS certs location to /data/domains
+  * (M+P) make backup job back up all of /data/domains/$DOMAIN/ uniformly, with a PreStart for the mysql dump
+  * (?) rename /services to /backends in etcd
+  * (?) rename importers to init, make them all inline scripts
+  * (?) adapt deploy script to use immigrations, review repo contents for stuff that can be removed
+  * (M+P) prepare blogpost about 0.2 release
+  * (M) update docs
+  * (M+P) tag 0.2 (see https://github.com/indiehosters/indiehosters/milestones)
+* images are pulled on first use, not at server setup (just remove those lines from setup.sh
