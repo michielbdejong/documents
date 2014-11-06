@@ -44,7 +44,7 @@
 * Week of 3 Nov:
      S T    Q Q S S D
   P: 
-  M: 7 9:30 7
+  M: 7 9:30 7 1
 
 ### Franchise-wide expenses:
 
