@@ -61,3 +61,20 @@ activated when the user tries to use it for the first time.
 * user interviews
 * study the competition
 * advertising through the communities of the projects we host
+
+### Easy entry for hosters (whether certified or not)
+
+* run not only on coreos but also on ubuntu 14.10 (vagrant is only for dev)
+* keep documentation up to date in each release
+* clear cycle of well-tested releases, keep user data compatible
+* small, well-documented, easy to read code. Minimize surprises and puzzles
+* documentation should not also cover server setup, but also CRM and monitoring
+
+### Easy for outsiders (or upstreams) to add new products
+
+* Document what the Docker image should look like
+* No application-specific systemd code (only the Docker image should change)
+* For multi-process applications, use multiple Docker images (e.g. db server,
+  cron jobs). We should document exactly how to add a cron job to an application
+  (like the gitpuller for static-git), and have one guide per platform (lamp,
+  ruby, node, python, ...).
