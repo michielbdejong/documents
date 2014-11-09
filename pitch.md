@@ -48,6 +48,41 @@ the IndieHosters network reach the critical size that makes it viable as a full-
 Once we achieve that, it will be impossible to switch off the network, and the freedom to have your own personal server will
 for always be available to every internet citizen.
 
+# Alternative version:
+
+Bloggers set you free
+* bloggers are awesome
+* be a blogger
+* but be free, be independent
+* join the indieweb
+* easiest way:
+  * newcomers: get your own website
+  * existing bloggers: let us indiewebify you
+* product:
+  * your own .com, or 1 year renewal of an existing one
+  * all the blogging tools you will ever need
+  * choose between Indie-Wordpress or Known
+  * automatically posts to Twitter and Facebook each time you publish something
+  * Secured with https
+  * email forwarded to your existing mailbox
+* migration-oriented organization:
+  * you can switch, switch back, switch to yourself, switch back, import, export, as often as you want.
+  * each IndieHoster is fully independent, both technically and financially
+* And one more thing... also includes ownCloud. so sign up now.
+
+# idea for perks:
+
+* 10 EUR: stickers
+* 30 EUR: stickers + T-shirt
+* 100 EUR: get your own website. includes stickers + T-shirt.
+* 100 EUR: indiewebify your existing website. includes stickers + T-shirt.
+* 500 EUR: supporter
+* 1000 EUR: sponsor
+
+# idea for campaign:
+
+* 30 days, 21 Nov - 21 Dec
+* Flexible goal: 10,000 EUR
 
 # Longer version:
 ## 1: The Problem
