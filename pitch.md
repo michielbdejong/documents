@@ -70,6 +70,14 @@ Bloggers set you free
   * each IndieHoster is fully independent, both technically and financially
 * And one more thing... also includes ownCloud. so sign up now.
 
+# Fourth version:
+
+* multiply the IndieWeb by 3 orders of magnitude, from 400 to 400,000 users
+-> unlike yet EcoBytes-like project, that's a dream we can get people to root for
+-> so that would call for cut-throat pricing. but we start at market rate.
+-> and this is only the beginning: xmpp hosting, webrtc, cloud for Firefox OS, quantified self - almost any internet technology, even p2p ones, requires servers. we aim to decentralize the /organizational/ architecture of the internet, not just for one application. not even just for one protocol. migration-oriented hosting is the only viable future for us. let services be owned by users, not by corporations.
+
+
 # idea for perks:
 
 * 10 EUR: stickers
