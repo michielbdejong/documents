@@ -51,6 +51,11 @@
   P: 
   M: 
 
+* Week of 10 Nov:
+     S T Q Q S S D
+  P: 8
+  M: 8
+
 ### Franchise-wide expenses:
 
 * (M) DNR indiehosters.net/org/com 26.60 EUR
