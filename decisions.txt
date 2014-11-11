@@ -50,3 +50,8 @@
 - bountysource (only claimable if you first become an IndieHoster):
   - 100 EUR / LAMP product
   - 1000 EUR any other stack
+
+# Join the IndieWeb campaign
+* 50 EUR/year for either WordPress-based or Known-based product
+* We aim to get 400x50=20,000 EUR, and set all these new customers up in one batch, in January. That way some money will be left over for R&D.
+
