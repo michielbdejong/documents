@@ -76,7 +76,7 @@ Bloggers set you free
 -> unlike yet EcoBytes-like project, that's a dream we can get people to root for
 -> so that would call for cut-throat pricing. but we start at market rate.
 -> and this is only the beginning: xmpp hosting, webrtc, cloud for Firefox OS, quantified self - almost any internet technology, even p2p ones, requires servers. we aim to decentralize the /organizational/ architecture of the internet, not just for one application. not even just for one protocol. migration-oriented hosting is the only viable future for us. let services be owned by users, not by corporations.
-
+-> as connectivity becomes more ubiquitous, devices are now service endpoints, and servers become more important (e.g. huge Apple data centers for iTunes and iCloud).
 
 # idea for perks:
 
