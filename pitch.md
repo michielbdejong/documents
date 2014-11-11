@@ -74,7 +74,8 @@ Bloggers set you free
 
 * multiply the IndieWeb by 3 orders of magnitude, from 400 to 400,000 users
 -> unlike yet EcoBytes-like project, that's a dream we can get people to root for
--> so that would call for cut-throat pricing. but we start at market rate.
+-> increase the size of the indieweb by 50%
+-> so that would call for cut-throat pricing: 200 x 25 EUR for 3 months (incl. DNR) = 5000 EUR goal.
 -> and this is only the beginning: xmpp hosting, webrtc, cloud for Firefox OS, quantified self - almost any internet technology, even p2p ones, requires servers. we aim to decentralize the /organizational/ architecture of the internet, not just for one application. not even just for one protocol. migration-oriented hosting is the only viable future for us. let services be owned by users, not by corporations.
 -> as connectivity becomes more ubiquitous, devices are now service endpoints, and servers become more important (e.g. huge Apple data centers for iTunes and iCloud).
 
