@@ -53,8 +53,8 @@
 
 * Week of 10 Nov:
      S T Q Q S S D
-  P: 8
-  M: 8
+  P: 8 8
+  M: 8 8
 
 ### Franchise-wide expenses:
 
