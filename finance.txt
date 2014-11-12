@@ -48,13 +48,8 @@
 
 * Week of 10 Nov:
      S T Q Q S S D
-  P: 
-  M: 
-
-* Week of 10 Nov:
-     S T Q Q S S D
   P: 8 8
-  M: 8 8
+  M: 8 8 0
 
 ### Franchise-wide expenses:
 
@@ -62,16 +57,20 @@
 * (M) Coworking space for bootstrap period 198 EUR
 * (M) DNR indiehoster.net/org/com 28.15 EUR
 * (P) Communication 200 EUR
-* (P) Lunch with Wordpress expert ?? EUR
+* (P) Lunch with Wordpress expert 24 (?) EUR
 
 # End status:
-  - kept safe by Pierre: 0 + (1000) - (190 + 220 + 350 + 320 + 375 + 365) - (200 + ??) =  ?? EUR
+  - kept safe by Pierre: 0 + (1000) - (190 + 220 + 350 + 320 + 375 + 365) - (200 + 24?) =  -1044? EUR
   - kept safe by Michiel: 0 + 6000 - (1000) - (210 + 350 + 300 + 20 + 350 + 285) - (26.60 + 198 + 28.15) = 3232.25 EUR
 
 # Projection at start of November 2014:
 
-* We have 3517.25-655 = 2862.25 EUR in the pot.
+* We have about 3232.25-1044 = 2000 EUR in the pot.
 * 1250 from NLNet is underway.
-* We will spend another 350 EUR or so on coworking for Nov/Dec
-* That leaves 2862.25+1250-350=3762.25 EUR
-* If we work 2x30 hours per week that means we run out of money around 15 December 2014.
+* We will spend another 250 EUR or so on coworking for Nov/Dec
+* That leaves 2000+1250-250=3000 EUR
+* With one person working 30 hours per week from now on, that means we run out of money around 15 January.
+* Say crowd-funding brings in 5000, of which 2500 goes to DNR, TLS, and hosting. That gives us another two months, until around 15 March.
+* Throughout 2015 we can do similar campaigns to help us through the year: Jabber, Drive, GitLab, Talky.
+* In January we can start doing Google Ads for WordPress hosting and other keywords, offering the same product at a 100 EUR/year price. Even if we have to spend 20 EUR out of those on advertising costs, it would still make sense.
+* In 2016, we can make easy money off renewing customers, and continue growing through advertising and word-of-mouth.
