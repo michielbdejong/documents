@@ -1,8 +1,25 @@
-# proposed plan for Tue 11 Nov:
+# November
 
-* (M+P) set up all alpha testers on 0.2
-* (M+P) discuss Join The IndieWeb campaign with Ben+Jo
-* (M) write blogpost explaining choice of first crowd-funding campaign
+* video, campaign
+* blogpost, newsletter: announce crowdfunding and nlnet
+* finish setting up redundant, migration-oriented infrastructure for alpha users
+
+# December
+
+* run crowd-funding
+* known, piwik (stats.) for nlnet milestone
+* sign-up form that creates csv for
+  * contact info
+  * chosen domain name (whois lookup on namecheap api)
+  * chosen product (WordPress vs. Known)
+
+# January
+
+* provisioning
+* selling directly on own e-commorce site
+* advertising
+
+
 
 # sales tasks to work on:
 
