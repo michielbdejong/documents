@@ -52,6 +52,11 @@
   P: 8 8 7 8 2:30     -> 33.5 * 10 EUR = 335 EUR
   M: 8 8 0 7          -> 23   * 10 EUR = 230 EUR
 
+* Week of 17 Nov:
+     S T Q Q S S D
+  P: 9
+  M:
+
 ### Franchise-wide expenses:
 
 * (M) DNR indiehosters.net/org/com 26.60 EUR
