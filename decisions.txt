@@ -58,6 +58,4 @@
 
 # SSL
 
-* by default, we put people into batches of 50, on multi-domain certs with domain.com and stats.domain.com for each one.
-* in a year in which a user migrates at least once, we generate their simple certificate, and host them on that. In the last month before this certificate expires, if the hoster has at least two other new certs to obtain, it makes sense to batch them together again.
-* This way we spend 0.50 USD per year on customers that don't migrate, and 9 USD per year on customers that do. The yearly product price should be based on the 9 USD, and we make more profit on users in years in which they don't migrate. An extra incentive to keep them happy! :)
+* the official line is to use 9 USD certs from namecheap, so as not to break the startssl T&C. If you own the domain name, then registering at startssl is allowed.
