@@ -1,4 +1,6 @@
 * today:
+  * work on text
+  * contact press
   * ask friends to preview
     * everybody who ever worked on unhosted/rs/tosdr
     * fosdem people, eff people, redecentralize people
