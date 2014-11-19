@@ -1,0 +1,11 @@
+Twitter:
+GitHub:
+Facebook:
+If you have none of the above, fill in:
+    First Name:
+    Last Name:
+    username: [will be used as e.g. wordpress user and pre-fill domainname search]
+domain name: [search] [I already have one -> point your name servers]
+email address:
+language: (default: en-us)
+[ ]  check here if you want WordPress instead of Known

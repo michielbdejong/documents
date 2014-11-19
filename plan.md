@@ -1,17 +1,28 @@
-# November
-
-* video, campaign
-* blogpost, newsletter: announce crowdfunding and nlnet
-* finish setting up redundant, migration-oriented infrastructure for alpha users
-
-# December
-
-* run crowd-funding
-* known, piwik (stats.) for nlnet milestone
-* sign-up form that creates csv for
-  * contact info
-  * chosen domain name (whois lookup on namecheap api)
-  * chosen product (WordPress vs. Known)
+* today:
+  * work on text
+  * contact press
+  * ask friends to preview
+    * everybody who ever worked on unhosted/rs/tosdr
+    * fosdem people, eff people, redecentralize people
+* when campaign launches:
+  * send out newsletter
+  * invite facebook friends
+  * tweet once an hour
+  * post to mailing lists:
+    * redecentralize
+    * liberationtech
+    * unhosted
+  * bother all people who donated to unhosted/tosdr campaign
+  * post on tuenti, facebook, twitter
+* for infrastructure to be complete:
+  * get Known https-bug fixed
+  * add monitoring
+  * add second backup
+  * change all passwords (use some system)
+  * fix ubuntu support
+  * fix mysql import from backup
+  * create signup screen that automatically harvests from twitter and checks domain names
+  * add Piwik?
 
 # January
 
@@ -19,24 +30,6 @@
 * selling directly on own e-commorce site
 * advertising
 
+# February
 
-
-# sales tasks to work on:
-
-* finalize decisions on pricing and presentation for Join The IndieWeb campaign
-* crowd-funding video
-* keep up regular blog posts
-* start newsletter
-* start crowd-funding
-
-# product features to work on:
-
-* monitoring with sms
-* second backup destination
-* IndieWeb-plugins for WordPress
-* add Known image
-* all domains on nameservers we control
-* sign-up form which saves to csv
-* add CRM system with support tickets and namecheap and fleetctl integration
-* stop linked containers from mysql backup from building up so much in `docker ps`
-* namecheap integration
+* add more products
