@@ -1,3 +1,21 @@
+# Definition of IndieHosters
+
+A migration network for hosting providers.
+
+# Migration format
+
+A runme file, included with the user's data, which either runs a docker image or does vagrant up or whatever.
+
+# Products
+
+Open source projects can package their product by defining the runme file for the migration of an instance of that software. There is a feature spec for each product, for instance for the WordPress product, it may say it includes the domain name and a TLS cert, offers WordPress 4.0.1 in the domain root, with these and these plugins, plus Piwik-based stats on https://domain.com/stats, and sends a backup to two git servers each hour.
+
+# Infrastructure
+
+The packaged product which is bootstrapped from the runme file defines the reference implementation for that product. There may be alternative implementations which make other design choices but offer the same user-facing functionality. There is also the SNI offloader which hosters may use to run individual web domains as haproxy backends, and thus save on hardware (sharing one IPv4 address among multiple domain names). Some applications need to be run on one IPv4 address per domain, so these will generally be more expensive to host.
+
+# Infrastructure design
+
 - load balancing:
   - current: nothing
   - quick fix: rsync + monitoring emails + manual DNS switch
@@ -11,11 +29,11 @@
   - scripts/setup.sh, scripts/activate-user.sh
 - eventually, look at VOLUMES from Dockerfile to generate the blueprint and the list of which host paths to mount
 
-- website:
+# Website
   - blue screen from Cami
   - static blog with jekyll
 
-- product:
+# Product
   - step 1: money + email address
   - super-simple-to-use update by email product:
     - do you have a pseudonym?
@@ -28,12 +46,12 @@
     - via ... (blog post)
     - the git repo we should be polling with our cron jobs
 
-- launch phases:
+# Launch phases
   - hackernews phase -> make hackernews readers enthusiastic, build following
   - crowd-funding phase -> appeal to people who gave money to diaspora, mailpile, sandstorm, ind.ie, etc.
   - live phase -> compete with "normal" hosting providers on share/connect/store, and start conquering niche markets (biggest first)
 
-# five focus areas:
+# Five focus areas:
 - technical
   - infrastructure
   - applications
