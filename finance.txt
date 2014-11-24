@@ -54,8 +54,14 @@
 
 * Week of 17 Nov:
      S T Q Q S S D
-  P: 9 7 7
+  P: 9 7 7 8 7 1 1
   M: 2 7 6
+
+* Week of 24 Nov:
+     S T Q Q S S D
+  P: 7
+  M:
+
 
 ### Franchise-wide expenses:
 
