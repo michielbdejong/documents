@@ -59,7 +59,7 @@
 
 * Week of 24 Nov:
      S T Q Q S S D
-  P: 7 4
+  P: 7 4 9 1
   M: 3
 
 
