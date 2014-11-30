@@ -54,13 +54,13 @@
 
 * Week of 17 Nov:
      S T Q Q S S D
-  P: 9 7 7 8 7 1 1
-  M: 2 7 6 5 5
+  P: 9 7 7 8 7 1 1 -> 40 * 10 EUR = 400 EUR
+  M: 2 7 6 5 5     -> 25 * 10 EUR = 250 EUR
 
 * Week of 24 Nov:
      S T Q Q S S D
-  P: 7 4 9 1
-  M: 3     6 2
+  P: 7 4 9 1       -> 21 * 10 EUR = 210 EUR
+  M: 3     6 2   1 -> 12 * 10 EUR = 120 EUR
 
 
 ### Franchise-wide expenses:
@@ -68,13 +68,14 @@
 * (M) DNR indiehosters.net/org/com 26.60 EUR
 * (M) Coworking space for bootstrap period 198 EUR
 * (M) DNR indiehoster.net/org/com 28.15 EUR
+* (M) DNR indyhosters.net 9 EUR
 * (P) Communication 200 EUR
 * (P) Lunch with Wordpress expert 24 EUR
 * (P) Co-working November 100 EUR
 
 # End status:
-  - kept safe by Pierre: 0 + (1000 + 1500) - (190 + 220 + 350 + 320 + 375 + 365) - (200 + 24 + 100) =  356 EUR
-  - kept safe by Michiel: 0 + 6000 - (1000 + 1500) - (210 + 350 + 300 + 20 + 350 + 285 + 230) - (26.60 + 198 + 28.15) = 1502.25 EUR
+  - kept safe by Pierre: 0 + (1000 + 1500) - (190 + 220 + 350 + 320 + 375 + 365 + 335 + 400 + 210) - (200 + 24 + 100) =  -589 EUR
+  - kept safe by Michiel: 0 + 6000 - (1000 + 1500) - (210 + 350 + 300 + 20 + 350 + 285 + 230 + 250 + 120) - (26.60 + 198 + 28.15 + 9) = 1123.25 EUR
 
 # Projection half way November 2014:
 
