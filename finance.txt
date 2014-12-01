@@ -62,6 +62,11 @@
   P: 7 4 9 1       -> 21 * 10 EUR = 210 EUR
   M: 3     6 2   1 -> 12 * 10 EUR = 120 EUR
 
+* Week of 1 Dec:
+     S T Q Q S S D
+  P: 
+  M: 8
+
 
 ### Franchise-wide expenses:
 
