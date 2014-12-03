@@ -58,14 +58,14 @@
   M: 2 7 6 5 5     -> 25 * 10 EUR = 250 EUR
 
 * Week of 24 Nov:
-     S T Q Q S S D
-  P: 7 4 9 1       -> 21 * 10 EUR = 210 EUR
-  M: 3     6 2   1 -> 12 * 10 EUR = 120 EUR
+     S T Q Q S    S D
+  P: 7 4 9 1 2:30     -> 23.5 * 10 EUR = 235 EUR
+  M: 3     6 2      1 -> 12 * 10 EUR = 120 EUR
 
 * Week of 1 Dec:
-     S T Q Q S S D
-  P: 
-  M: 8 2 8
+     S    T    Q Q S S D
+  P: 5:30 7:30 6:30
+  M: 8    2    8
 
 
 ### Franchise-wide expenses:
