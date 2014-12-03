@@ -65,7 +65,7 @@
 * Week of 1 Dec:
      S T Q Q S S D
   P: 
-  M: 8
+  M: 8 2 8
 
 
 ### Franchise-wide expenses:
