@@ -63,9 +63,9 @@
   M: 3     6 2      1 -> 12 * 10 EUR = 120 EUR
 
 * Week of 1 Dec:
-     S    T    Q Q S S D
+     S    T    Q    Q S S D
   P: 5:30 7:30 6:30
-  M: 8    2    8
+  M: 8    2    8    7 5
 
 
 ### Franchise-wide expenses:
