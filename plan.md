@@ -1,15 +1,23 @@
-* for infrastructure to be complete:
+* for running 25 users each:
   * add monitoring
-  * change all passwords (use some system)
-  * create signup screen that automatically harvests from twitter and checks domain names
-  * add Piwik?
+  * improve memory usage
 
-# January
+* for going live with sales:
+  * get tax number
+  * put PayPal button on own home page (10 USD/month)
+  * add self to product pages, e.g. https://indiehosters.net/product/known
+  * advertise
 
-* provisioning
-* selling directly on own e-commorce site
-* advertising
-
-# February
-
-* add more products
+* IndieHosters products (for example):
+  * Known
+  * WordPress
+  * ownCloud
+  * Cozy
+  * MediaGoblin
+  * Jabber
+  * GitLab
+  * MozCloud
+  * reStore
+  * Sockethub
+  * Scuttlebutt
+  * Hoodie
