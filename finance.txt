@@ -7,6 +7,8 @@
 ## Money in:
 
 * (M) Bootstrap donation from the Unhosted project 6000 EUR
+* (P) NLnet funding 1250 EUR
+* (M) IndieGoGo funding 2271 EUR
 
 ## Transfer:
 
@@ -63,10 +65,28 @@
   M: 3     6 2      1 -> 12 * 10 EUR = 120 EUR
 
 * Week of 1 Dec:
-     S    T    Q    Q S S D
-  P: 5:30 7:30 6:30
-  M: 8    2    8    7 5 2
+     S    T    Q    Q  S  S D
+  P: 5:30 7:30 6:30 6? 6?     -> 31.5 * 10 EUR = 315 EUR
+  M: 8    2    8    7  5  2 6 -> 33 * 10 EUR = 330 EUR
 
+* Week of 8 Dec:
+     S  T  Q  Q  S  S D
+  P: 6? 6? 6? 6? 6?     -> 30 * 10 EUR = 300 EUR
+  M: 6? 6? 6? 6? 6?     -> 30 * 10 EUR = 300 EUR
+
+* Week of 15 Dec:
+     S  T  Q  Q  S  S D
+  P: 6? 6? 6? 6? 6?     -> 30 * 10 EUR = 300 EUR
+  M: 6? 6? 6? 6? 6?     -> 30 * 10 EUR = 300 EUR
+
+* After 21 Dec:
+
+We have 29 customers from the crowdfunding, (29 * 50 + 821 = 2271).
+Of each 50 EUR, 4.50 EUR went to IndieGoGo and 10 EUR went into the pot,
+so that leaves 35.50 to be paid out for the work and expenses per customer.
+
+  P: Setting up half the customers 14.5 * 35.50 = 515
+  M: Setting up half the customers 14.5 * 35.50 = 515
 
 ### Franchise-wide expenses:
 
@@ -77,20 +97,13 @@
 * (P) Communication 200 EUR
 * (P) Lunch with Wordpress expert 24 EUR
 * (P) Co-working November 100 EUR
+* (M) IndieGoGo fee (9%) 204 EUR
+* (P) Co-working December l'Atelier 100 EUR
+* (M) Co-working December Mitosis 75 EUR
+* (P) 1000 stickers 170 EUR
+* (P) Design "Install" button, "Certified" badge 200 EUR
 
 # End status:
-  - kept safe by Pierre: 0 + (1000 + 1500) - (190 + 220 + 350 + 320 + 375 + 365 + 335 + 400 + 210) - (200 + 24 + 100) =  -589 EUR
-  - kept safe by Michiel: 0 + 6000 - (1000 + 1500) - (210 + 350 + 300 + 20 + 350 + 285 + 230 + 250 + 120) - (26.60 + 198 + 28.15 + 9) = 1123.25 EUR
-
-# Projection for December 2014:
-
-Looking at where the crowdfunding campaign is now, we'll finish the bootstrap money in December, and then have 20 paying customers each.
-
-* We have about 1124-689=535 EUR in the pot.
-* 1250 from NLNet is underway.
-* We will spend another 125 EUR or so on coworking for Dec
-* We have about 40 paying customers (2000 EUR) from the crowdfunding, each of which we said pays 10 EUR into R&D, so that's 400 EUR
-* We both want to work about 30 hours per week these three weeks, until 21 December, so that's about 1800 EUR
-* That leaves 535+1250-125+400-1800 = 260 EUR in the pot at the end of the crowdfunding
-* We can then divide the signups in two, and stop writing hours. Whatever is left in the pot can stay there for running indiehosters.net
-* After 21 December, we will then have about 20 customers each, so that's 200 EUR for the setup work, and another 200 EUR if we use startssl.
+  - kept safe by Pierre: 0 + (1250) + (1000 + 1500) - (190 + 220 + 350 + 320 + 375 + 365 + 335 + 400 + 235 + 315 + 300 + 300 + 515) - (200 + 24 + 100 + 100 + 170 + 200) =  -1264 EUR
+  - kept safe by Michiel: 0 + (6000 + 2271) - (1000 + 1500) - (210 + 350 + 300 + 20 + 350 + 285 + 230 + 250 + 120 + 330 + 300 + 300 + 515) - (26.60 + 198 + 28.15 + 9 + 204 + 75) = 1670.25 EUR
+  - total (reserved for future communication costs): -1264 + 1670.25 = 406.25 EUR
