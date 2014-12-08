@@ -1,23 +1,18 @@
-* for running 25 users each:
-  * add monitoring
-  * improve memory usage
+# TO DO WEEK 8 DECEMBER
 
-* for going live with sales:
-  * get tax number
-  * put PayPal button on own home page (10 USD/month)
-  * add self to product pages, e.g. https://indiehosters.net/product/known
-  * advertise
+Pierre:
 
-* IndieHosters products (for example):
-  * Known
-  * WordPress
-  * ownCloud
-  * Cozy
-  * MediaGoblin
-  * Jabber
-  * GitLab
-  * MozCloud
-  * reStore
-  * Sockethub
-  * Scuttlebutt
-  * Hoodie
+* order stickers
+* create Certified Indie Hoster badge
+* conferences and press
+* template for product pages
+
+
+Michiel:
+
+* text for product pages for WordPress, Known, plus any other products
+* describe packaging and product launch procedure
+  * including example.com migration archive
+* page about how to become an IndieHoster
+* update existing home page with the products caroussel categorizing and linking to product pages
+* add more products (owncloud, mediagoblin)
