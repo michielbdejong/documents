@@ -67,6 +67,11 @@
   P: 5:30 7:30 6:30
   M: 8    2    8    7 5 2
 
+* Week of 8 Dec:
+     S T Q Q S S D
+  P: 
+  M: 7
+
 
 ### Franchise-wide expenses:
 
