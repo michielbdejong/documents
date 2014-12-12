@@ -9,6 +9,7 @@
 * (M) Bootstrap donation from the Unhosted project 6000 EUR
 * (P) Bootstrap donation from NLnet 1250 EUR
 * (M) IndieGoGo campaign 2731 EUR
+* (M) Hackadon.org contributions 80 EUR
 
 ## Transfer:
 
@@ -74,7 +75,6 @@
   P:               -> 0 * 10 EUR = 0 EUR
   M: 7   2 2       -> 11 * 10 EUR = 110 EUR
 
-
 ### Franchise-wide expenses:
 
 * (M) DNR indiehosters.net/org/com 26.60 EUR
@@ -84,20 +84,28 @@
 * (P) Communication 200 EUR
 * (P) Lunch with Wordpress expert 24 EUR
 * (P) Co-working November 100 EUR
-* (P) Stickers (estimate) 170 EUR
+* (P) Stickers incl. stamps (estimate) 170 EUR
 * (M) IndieGoGo fee 9% * 2731 = 245.79 EUR
+* (P) campaign contribution for friend 50 EUR
 
 # End status:
   - kept safe by Pierre:
       Money in:			+ 1250
       Transfers:		+ (1000 + 1500)
       Worked:			- (190 + 220 + 350 + 320 + 375 + 365 + 335 + 400 + 235 + 195 + 0)
-      Franchise expenses:	- (200 + 24 + 100 + 170)
-      Total:			= 271 EUR
+      Franchise expenses:	- (200 + 24 + 100 + 170 + 50)
+      Total:			= 221 EUR
 
   - kept safe by Michiel:
-      Money in:			+ (6000 + 2731)
+      Money in:			+ (6000 + 2731 + 80)
       Transfers:		- (1000 + 1500)
       Worked:			- (210 + 350 + 300 + 20 + 350 + 285 + 230 + 250 + 120 + 320 + 110)
       Franchise expenses:	- (26.60 + 198 + 28.15 + 9 + 245.79)
-      Total:			= 3178.46 EUR
+      Total:			= 3258.46 EUR
+
+  - reserved (estimates):
+      36 x 10 EUR domain names for IndieWeb packs sold
+      36 x 2 hours work setting up IndieWeb packs (see 'worked')
+      20 hours post-campaign admin
+      20 hours website dev (adding products pages)
+      200 hours packaging & announcing more products
