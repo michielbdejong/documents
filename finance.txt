@@ -73,7 +73,7 @@
 * Week of 8 Dec:
      S T Q Q S S D
   P:               -> 0 * 10 EUR = 0 EUR
-  M: 7   2 2       -> 11 * 10 EUR = 110 EUR
+  M: 7   2 2 7 5   -> 23 * 10 EUR = 230 EUR
 
 ### Franchise-wide expenses:
 
@@ -99,9 +99,9 @@
   - kept safe by Michiel:
       Money in:			+ (6000 + 2731 + 80)
       Transfers:		- (1000 + 1500)
-      Worked:			- (210 + 350 + 300 + 20 + 350 + 285 + 230 + 250 + 120 + 320 + 110)
+      Worked:			- (210 + 350 + 300 + 20 + 350 + 285 + 230 + 250 + 120 + 320 + 230)
       Franchise expenses:	- (26.60 + 198 + 28.15 + 9 + 245.79)
-      Total:			= 3258.46 EUR
+      Total:			= 3138.46 EUR
 
   - reserved (estimates):
       36 x 10 EUR domain names for IndieWeb packs sold
