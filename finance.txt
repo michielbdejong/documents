@@ -75,6 +75,11 @@
   P:               -> 0 * 10 EUR = 0 EUR
   M: 7   2 2 7 5   -> 23 * 10 EUR = 230 EUR
 
+* Week of 15 Dec:
+     S T Q Q S S D
+  P: 
+  M: 2 2
+
 ### Franchise-wide expenses:
 
 * (M) DNR indiehosters.net/org/com 26.60 EUR
