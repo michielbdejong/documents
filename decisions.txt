@@ -1,3 +1,42 @@
+# New pitch ideas:
+
+Your own website
+Managed indieweb hosting
+Free software as a service
+
+# Additional features (Michiel only, for now)
+
+* reStore
+* sockethub
+* ownCloud
+* mediagoblin
+
+In january, Pierre will too, and also add piwik.
+
+# New products (20 eur/month)
+
+* Y U No Host
+* Cozy
+* SandStorm
+* Indie Box
+
+# And then
+
+* Mozilla Cloud Services
+* GitLab
+* XMPP
+* Piwik
+* Huggin
+* Scuttlebutt
+* Diaspora
+* RedMatrix
+* Wallabag
+* ...
+
+# Post-campaign
+
+On Monday, 10 am, we have a virtual coffee to discuss who will host who.
+
 # Definition of IndieHosters
 
 A migration network for hosting providers.
