@@ -15,6 +15,8 @@
 
 * (M->P) IBAN transfer 3 Nov 2014, 1000 EUR
 * (M->P) IBAN transfer 14 Nov 2014, 1500 EUR
+* (M->P) IBAN transfer 23 Dec 2014, 3000 EUR
+* (M->P) IBAN transfer 31 Jan 2014, 937.40 EUR
 
 ## Money out:
 
@@ -92,26 +94,25 @@
 * (P) Stickers incl. stamps (estimate) 170 EUR
 * (M) IndieGoGo fee 4% * 5086 = 203.44 EUR
 * (P) campaign contribution for end 1150 EUR
-* (P) Hosting packs 34 * 40 = 1360 EUR
-* (M) Hosting packs 15 * 40 = 600 EUR
+* (P) customers by 31 January, estimate: 30 * 40 = 1200 EUR
+* (M) customers by 31 January, estimate: 15 * 40 = 600 EUR
+* (P) time and expenses sending out stickers, estimate: 400 EUR
+* (P) time and expenses possible teaching from 1 expert pack: 8 hours = 80 EUR
+* (P) splitting rest of the pot in two on 31 January, estimate: 838.40 EUR
+* (M) splitting rest of the pot in two on 31 January, estimate: 838.40 EUR
 
 
 # End status:
   - kept safe by Pierre:
       Money in:			+ 1250
-      Transfers:		+ (1000 + 1500)
+      Transfers:		+ (1000 + 1500 + 3000 + 937.40)
       Worked:			- (190 + 220 + 350 + 320 + 375 + 365 + 335 + 400 + 235 + 315 + 120 + 300)
-      Franchise expenses:	- (200 + 24 + 100 + 170 + 1150 + 1360)
-      Total:			= -2779 EUR
+      Franchise expenses:	- (200 + 24 + 100 + 170 + 1150 + 1200 + 400 + 80 + 838.40)
+      Total:			= 0.00 EUR
 
   - kept safe by Michiel:
       Money in:			+ (6000 + 5086 + 80)
-      Transfers:		- (1000 + 1500)
+      Transfers:		- (1000 + 1500 + 3000 + 937.40)
       Worked:			- (210 + 350 + 300 + 20 + 350 + 285 + 230 + 250 + 120 + 320 + 230 + 160)
-      Franchise expenses:	- (26.60 + 198 + 28.15 + 9 + 203.44 + 600)
-      Total:			= 4775.81 EUR
-
-  - reserved (estimates): 1996.81 EUR (about 3 weeks of 30 hours each)
-      * time and expenses sending out stickers -> 400 EUR (estimate)
-      * time and expenses teaching expert packs -> 8 hours = 80 EUR
-      * rest to be split in two
+      Franchise expenses:	- (26.60 + 198 + 28.15 + 9 + 203.44 + 600 + 838.40)
+      Total:			= 0.01 EUR
