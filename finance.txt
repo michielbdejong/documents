@@ -91,26 +91,27 @@
 * (P) Co-working November 100 EUR
 * (P) Stickers incl. stamps (estimate) 170 EUR
 * (M) IndieGoGo fee 4% * 5086 = 203.44 EUR
-* (P) campaign contribution for end 900 EUR
+* (P) campaign contribution for end 1150 EUR
+* (P) Hosting packs 34 * 40 = 1360 EUR
+* (M) Hosting packs 15 * 40 = 600 EUR
+
 
 # End status:
   - kept safe by Pierre:
       Money in:			+ 1250
       Transfers:		+ (1000 + 1500)
       Worked:			- (190 + 220 + 350 + 320 + 375 + 365 + 335 + 400 + 235 + 315 + 120 + 300)
-      Franchise expenses:	- (200 + 24 + 100 + 170 + 900)
-      Total:			= -1196 EUR
+      Franchise expenses:	- (200 + 24 + 100 + 170 + 1150 + 1360)
+      Total:			= -2779 EUR
 
   - kept safe by Michiel:
       Money in:			+ (6000 + 5086 + 80)
       Transfers:		- (1000 + 1500)
       Worked:			- (210 + 350 + 300 + 20 + 350 + 285 + 230 + 250 + 120 + 320 + 230 + 160)
-      Franchise expenses:	- (26.60 + 198 + 28.15 + 9 + 245.79)
-      Total:			= 5333.46 EUR
+      Franchise expenses:	- (26.60 + 198 + 28.15 + 9 + 203.44 + 600)
+      Total:			= 4775.81 EUR
 
-  - reserved (estimates):
-      36 x 10 EUR domain names for IndieWeb packs sold
-      36 x 2 hours work setting up IndieWeb packs (see 'worked')
-      20 hours post-campaign admin
-      20 hours website dev (adding products pages)
-      200 hours packaging & announcing more products
+  - reserved (estimates): 1996.81 EUR (about 3 weeks of 30 hours each)
+      * time and expenses sending out stickers -> 400 EUR (estimate)
+      * time and expenses teaching expert packs -> 8 hours = 80 EUR
+      * rest to be split in two
