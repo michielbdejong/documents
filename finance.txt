@@ -8,7 +8,7 @@
 
 * (M) Bootstrap donation from the Unhosted project 6000 EUR
 * (P) Bootstrap donation from NLnet 1250 EUR
-* (M) IndieGoGo campaign 2731 EUR
+* (M) IndieGoGo campaign 5086 EUR
 * (M) Hackadon.org contributions 80 EUR
 
 ## Transfer:
@@ -67,18 +67,18 @@
 
 * Week of 1 Dec:
      S    T    Q    Q S S D
-  P: 5:30 7:30 6:30         -> 19.5 * 10 EUR = 195 EUR
+  P: 5:30 7:30 6:30 6 6     -> 31.5 * 10 EUR = 315 EUR
   M: 8    2    8    7 5 2   -> 32 * 10 EUR = 320 EUR
 
 * Week of 8 Dec:
      S T Q Q S S D
-  P:               -> 0 * 10 EUR = 0 EUR
+  P: 2 2       4 4 -> 12 * 10 EUR = 120 EUR
   M: 7   2 2 7 5   -> 23 * 10 EUR = 230 EUR
 
 * Week of 15 Dec:
      S T Q Q S S D
-  P: 
-  M: 2 2 5 5 2
+  P: 7 6 6 3 3 2 3 -> 30 * 10 EUR = 300 EUR
+  M: 2 2 5 5 2     -> 16 * 10 EUR = 160
 
 ### Franchise-wide expenses:
 
@@ -90,23 +90,23 @@
 * (P) Lunch with Wordpress expert 24 EUR
 * (P) Co-working November 100 EUR
 * (P) Stickers incl. stamps (estimate) 170 EUR
-* (M) IndieGoGo fee 9% * 2731 = 245.79 EUR
-* (P) campaign contribution for friend 50 EUR
+* (M) IndieGoGo fee 4% * 5086 = 203.44 EUR
+* (P) campaign contribution for end 900 EUR
 
 # End status:
   - kept safe by Pierre:
       Money in:			+ 1250
       Transfers:		+ (1000 + 1500)
-      Worked:			- (190 + 220 + 350 + 320 + 375 + 365 + 335 + 400 + 235 + 195 + 0)
-      Franchise expenses:	- (200 + 24 + 100 + 170 + 50)
-      Total:			= 221 EUR
+      Worked:			- (190 + 220 + 350 + 320 + 375 + 365 + 335 + 400 + 235 + 315 + 120 + 300)
+      Franchise expenses:	- (200 + 24 + 100 + 170 + 900)
+      Total:			= -1196 EUR
 
   - kept safe by Michiel:
-      Money in:			+ (6000 + 2731 + 80)
+      Money in:			+ (6000 + 5086 + 80)
       Transfers:		- (1000 + 1500)
-      Worked:			- (210 + 350 + 300 + 20 + 350 + 285 + 230 + 250 + 120 + 320 + 230)
+      Worked:			- (210 + 350 + 300 + 20 + 350 + 285 + 230 + 250 + 120 + 320 + 230 + 160)
       Franchise expenses:	- (26.60 + 198 + 28.15 + 9 + 245.79)
-      Total:			= 3138.46 EUR
+      Total:			= 5333.46 EUR
 
   - reserved (estimates):
       36 x 10 EUR domain names for IndieWeb packs sold
