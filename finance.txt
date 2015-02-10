@@ -16,7 +16,6 @@
 * (M->P) IBAN transfer 3 Nov 2014, 1000 EUR
 * (M->P) IBAN transfer 14 Nov 2014, 1500 EUR
 * (M->P) IBAN transfer 23 Dec 2014, 3000 EUR
-* (M->P) IBAN transfer 31 Jan 2014, 937.40 EUR
 
 ## Money out:
 
@@ -91,28 +90,31 @@
 * (P) Communication 200 EUR
 * (P) Lunch with Wordpress expert 24 EUR
 * (P) Co-working November 100 EUR
-* (P) Stickers incl. stamps (estimate) 170 EUR
 * (M) IndieGoGo fee 4% * 5086 = 203.44 EUR
 * (P) campaign contribution for end 1150 EUR
-* (P) customers by 31 January, estimate: 30 * 40 = 1200 EUR
-* (M) customers by 31 January, estimate: 15 * 40 = 600 EUR
-* (P) time and expenses sending out stickers, estimate: 400 EUR
-* (P) time and expenses possible teaching from 1 expert pack: 8 hours = 80 EUR
-* (P) splitting rest of the pot in two on 31 January, estimate: 838.40 EUR
-* (M) splitting rest of the pot in two on 31 January, estimate: 838.40 EUR
+* (M) customers by 31 January: 14 * 40 = 560 EUR
+* (P) splitting rest of the pot in two on 31 January (excluding reserved): 838.40 EUR
+* (M) splitting rest of the pot in two on 31 January (excluding reserved): 838.39 EUR
 
+### Reserved: 1890 EUR
 
-# End status:
+* (P?) time and expenses sending out stickers: 400 EUR
+* (P?) Stickers incl. stamps (estimate) 170 EUR
+* (P?) hosting perks to be possibly fulfilled by Pierre: 29 * 40 = 1160 EUR
+* (P?) time and expenses possible teaching from 1 expert pack: 8 hours = 80 EUR
+* (M?) two customers who might still claim their perk later this year: 2 * 40 = 80 EUR
+
+# End status: 912.60 + 977.41 = 1890
   - kept safe by Pierre:
       Money in:			+ 1250
-      Transfers:		+ (1000 + 1500 + 3000 + 937.40)
+      Transfers:		+ (1000 + 1500 + 3000)
       Worked:			- (190 + 220 + 350 + 320 + 375 + 365 + 335 + 400 + 235 + 315 + 120 + 300)
-      Franchise expenses:	- (200 + 24 + 100 + 170 + 1150 + 1200 + 400 + 80 + 838.40)
-      Total:			= 0.00 EUR
+      Franchise expenses:	- (200 + 24 + 100 + 1150 + 838.40)
+      Total:			= 912.60 EUR
 
   - kept safe by Michiel:
       Money in:			+ (6000 + 5086 + 80)
-      Transfers:		- (1000 + 1500 + 3000 + 937.40)
+      Transfers:		- (1000 + 1500 + 3000)
       Worked:			- (210 + 350 + 300 + 20 + 350 + 285 + 230 + 250 + 120 + 320 + 230 + 160)
-      Franchise expenses:	- (26.60 + 198 + 28.15 + 9 + 203.44 + 600 + 838.40)
-      Total:			= 0.01 EUR
+      Franchise expenses:	- (26.60 + 198 + 28.15 + 9 + 203.44 + 560 + 838.39)
+      Total:			= 977.40 EUR
