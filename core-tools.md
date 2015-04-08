@@ -37,8 +37,10 @@ away from its cluster, as long as it keeps at least one buddy somewhere.
 A simple web interface that writes the minion-specs to disk, and reads stats from disk. The minion process on the server sees the new
 desired state, and brings the server into that state. The various services on the server can write stats so they get displayed.
 
+````
 minion-spec      ->
 json-stats       -> coyote-crm
+````
 
 # coyote-listener
 
@@ -52,6 +54,7 @@ A failover will take control if both the service and its DNS zone are unreachabl
 a backup will maybe send out an alarm, but always wait for instructions from either its own coyote-crm or its coyote-listener before switching
 authority to itself. A service can have multiple backups, but should only ever have one failover, which is like the primary backup:
 
+````
 * master
 ========
 * failover
@@ -60,6 +63,7 @@ authority to itself. A service can have multiple backups, but should only ever h
 * backup
 * backup
 * ...
+````
 
 As a security measure, and to force ourselves to keep the design decentralized, coyote-listener will only accept requests to begin/stop being backup/failover for a service, and requests to switch authority. It will only accept these requests if it's configured to through its local coyote-crm instance.
 
@@ -72,6 +76,7 @@ The minion runs on one server, to make sure that that server either reaches the 
 
 The actuators are the scripts that the minion uses to execute the tasks we automate (update a config, send an email, make an API call, ...)
 
+````
 minion-repos     ->
 minion-backends  ->
 minion-snickers  ->
@@ -83,6 +88,7 @@ minion-namecheap ->
 minion-mailer    -> minion-actuators ->
                     minion-spec      ->
                     alarms           -> minion
+````
 
 > # minion-minion
 > 
@@ -93,12 +99,14 @@ minion-mailer    -> minion-actuators ->
 
 This is the proxy, gets and stores the certs, and offloads SNI.
 
+````
 node-letsencrypt -> node-snitch ->
 spdy                            ->  snickers-proxy
 node-proxy                      ->
 relay-interceptor               ->
 json-stats                      ->
 config-reader                   ->
+````
 
 # docker-activator starts and stops containers (in response to memory usage), triggers them to dump their state, and writes traffic stats
 
