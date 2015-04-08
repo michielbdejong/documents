@@ -32,7 +32,10 @@ By default, the server runs an empty coyote-crm web interface as its only web se
 If you deploy a new server from an existing one, the existing server will configure it and add it to its cluster. A server can always break
 away from its cluster, as long as it keeps at least one buddy somewhere.
 
-# coyote-crm is a simple web interface that writes the minion-specs to disk, and reads stats from disk.
+# coyote-crm
+
+A simple web interface that writes the minion-specs to disk, and reads stats from disk. The minion process on the server sees the new
+desired state, and brings the server into that state. The various services on the server can write stats so they get displayed.
 
 minion-spec      ->
 json-stats       -> coyote-crm
@@ -47,7 +50,7 @@ This way, you can monitor its status (it may refuse), request it to be backup or
 and request to switch authority (it may refuse) for a service.
 A failover will take control if both the service and its DNS zone are unreachable, whereas
 a backup will maybe send out an alarm, but always wait for instructions from either its own coyote-crm or its coyote-listener before switching
-authority to itself. A service can have multiple backups, but should only ever have one failover:
+authority to itself. A service can have multiple backups, but should only ever have one failover, which is like the primary backup:
 
 * master
 ========
@@ -58,16 +61,16 @@ authority to itself. A service can have multiple backups, but should only ever h
 * backup
 * ...
 
-As a security measure, and to keep the design decentralized, coyote-listener will only accept requests to begin/stop being backup/failover for a service, and requests to switch authority. It will only accept these requests if it's configured to through its local coyote-crm instance.
+As a security measure, and to force ourselves to keep the design decentralized, coyote-listener will only accept requests to begin/stop being backup/failover for a service, and requests to switch authority. It will only accept these requests if it's configured to through its local coyote-crm instance.
 
 New signups from the webshop are posted to the coyote-crm instance of the server that will host them (in fact, the whole buying pipeline can be
 part of the coyote-crm web interface).
 
 # minion
 
-The minion runs on one server, to make sure that that server either reaches the state the crm asked for, or send out an alarm.
+The minion runs on one server, to make sure that that server either reaches the state the crm asked for, or sends out an alarm.
 
-The actuators are the scripts that the minion uses to execute the tasks we automate (update a config, send an email, make an API call)
+The actuators are the scripts that the minion uses to execute the tasks we automate (update a config, send an email, make an API call, ...)
 
 minion-repos     ->
 minion-backends  ->
@@ -84,7 +87,7 @@ minion-mailer    -> minion-actuators ->
 > # minion-minion
 > 
 > minion-minion could in the future initiate automated migrations in response to usage stats.
-> For now, this needs to be done manually through coyote-crm.
+> For now, this needs to be done manually through coyote-crm, in response to alarms or stats.
 
 # snitch-proxy
 
@@ -101,3 +104,9 @@ config-reader                   ->
 
 dockerode -> docker-activator
 
+Right now, snitch-proxy and docker-activator are still united in one snickers-proxy, but this has two problems:
+
+* we can only socket-activate services that are behind the proxy, not server-wide services.
+* it all runs in the same thread, meaning it only uses one CPU core.
+* if one crashes or restarts, the other also loses its memory / connections state.
+* we cannot readily upgrade or replace the individual two parts.
