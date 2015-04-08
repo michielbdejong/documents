@@ -108,9 +108,13 @@ json-stats                      ->
 config-reader                   ->
 ````
 
-# docker-activator starts and stops containers (in response to memory usage), triggers them to dump their state, and writes traffic stats
+# docker-activator
 
+Starts and stops containers (in response to memory usage), triggers them to dump their state, and writes traffic stats
+
+````
 dockerode -> docker-activator
+````
 
 Right now, snitch-proxy and docker-activator are still united in one snickers-proxy, but this has two problems:
 
