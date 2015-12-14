@@ -1,0 +1,79 @@
+NewsLetter Pierre's hosting, issue #2
+
+---Version française plus bas---
+
+Dear all,
+
+The March issue:
+
+# News
+ - email(imap and smtp) in beta \o/ if you want to try it out - contact me!
+ - piwik and owncloud are pretty stable now, thanks to our beta tester
+ 
+ Piwik is an alternative to GoogleAnalytics.
+ Owncloud is an alternative to DropBox.
+ 
+ Here is the complete list of applications I offer: https://indiehosters.net/hosters/pierre.html
+
+ - we were invited to FLOSS4P2P in London - watch our presentation of IndieHosters here: https://www.youtube.com/watch?v=OtCWW0FTKw8#t=475
+
+# Uptime
+
+99.12% (last 30 days)
+This is not good, one of my service provider was down for 5 hours, impacting around 10 of you,
+and Sunday, I had a hardware failiure that last for 5 hours.
+I'm really sorry for that, but I keep working on providing better infrastructure.
+
+# Finance
+ - hosting: 80€
+ - domain: 65€
+
+# Warrant canary
+https://github.com/pierreozoux/hosting/blob/master/warrant-canary/2015-04-02
+
+If you have any questions on any things, please do not hesitate to send an email!
+
+Pierre
+
+31 people freed and counting!
+
+PS: referal - if you convince a friend of joining IndieHosters, we give a month for free for you and your friend!
+
+---Version française---
+
+Bonjour à tous,
+
+La newsletter de Mars:
+
+# Nouvelles
+ - email(imap et smtp) en beta \o/ si vous voulez essayer - contactez moi!
+ - piwik et owncloud sont maintenant stables, grâce aux testeurs!
+ 
+ Piwik est une alternative à GoogleAnalytics.
+ Owncloud est une alternative à DropBox/GoogleDrive/GoogleCalendar.
+ 
+ Ici, vous trouverez une liste complète des applications que j'offre: https://indiehosters.net/hosters/pierre.html
+
+ - On était invité à FLOSS4P2P à Londres - vous pouvez voir la presentation d'IndieHosters ici: https://www.youtube.com/watch?v=OtCWW0FTKw8#t=475
+
+# Qualité du service
+
+Sur les 30 derniers jours, le service était disponible 99,12% du temps.
+C'est pas très bon. Durant 5 heures, un fournisseur de service avait des problèmes pour 10 d'entre vous.
+Et Dimanche j'ai essuyé ma première panne sérieuse de serveur, après 5 heures le service est revenu comme à la normale.
+Je travaille toujours à l'amélioration de l'infrastructure.
+
+# Finance
+ - hébergement:85€
+ - domaines: 65€
+
+# Warrant canary
+https://github.com/pierreozoux/hosting/blob/master/warrant-canary/2015-04-02
+
+Si vous avez des questions ou suggestions, n'hésitez pas à m'en faire part en répondant à ce mail!
+
+Pierre
+
+31 personnes libérées!
+
+PS: parrainage - si vous arrivez à convaincre un ami de rejoindre IndieHosters, on vous donne un mois gratuit à vous et à votre ami!

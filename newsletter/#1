@@ -1,0 +1,85 @@
+NewsLetter Pierre's hosting, issue #1
+
+---French version bellow---
+
+Dear all,
+
+For most of you, it's been almost a month I'm hosting your website!
+For others, it's been some months you are testing my infra, and I want to thank you for your patience!
+
+From now on, I'll send you a monthly mail with the following information:
+
+# News
+ - new applications: piwiki (beta), owncloud (beta)
+This is still beta, but if you are not afraid of testing, please, send me an email, and I'll setup an instance for you!
+ - services: people can now buy our services from our website: https://indiehosters.net/
+Tell it to your friends :)
+ - referal: if you convince a friend of joining IndieHosters, we give a month for free for you and your friend!
+
+# Uptime
+
+99.74% (last 30 days)
+This is not perfect, but, I think this is really good for a young service like our!
+Thanks for your patience, and I actually took some measures to make it better in the future.
+
+# GitHub
+If you want to follow or help to the development of the infrastructure, the code is here:
+https://github.com/pierreozoux/indiepaas
+
+You can create issues, and follow them :)
+
+# Finance
+ - hosting: 70€
+ - domain: 104€
+
+# Warrant canary
+https://github.com/pierreozoux/hosting/blob/master/warrant-canary/2015-02-26
+
+If you have any questions on any things, please do not hesitate to send an email!
+Even on how to improve this newsletter!
+
+Pierre
+
+24 people freed and counting!
+
+
+---French version---
+
+Bonjour à tous,
+
+Pour la plupart d'entre vous, cela fait presque un mois que je vous héberge!
+Pour certain, cela fait plusieurs mois qu'ils testent mon infrastructure, et je voudrais les remercier pour leur patience.
+
+A partir de maintenant, Je vais vous envoyer cet email mensuel avec les informations suivantes:
+
+# Nouvelles
+ - applications: piwik (beta), owncloud (beta)
+C'est encore beta, mais si vous n'avez pas peur de tester, alors envoyer moi un email, et je vous démarre une instance!
+ - services: il est maintenant possible d'acheter nos services depuis notre site: https://indiehosters.net/
+Faites circuler l'info!
+ - parrainage: si vous arrivez à convaincre un ami de rejoindre IndieHosters, on vous donne un moi gratuit à vous et à votre ami!
+
+# Qualité du service
+
+Sur les 30 derniers jours, le service était disponible 99,74% du temps.
+Ce n'est pas encore parfait, mais assez bien pour un jeune service comme nous :)
+Merci pour votre patience, et j'ai déjà apporté des modifications pour améliorer la situation.
+
+# GitHub
+Si vous voulez suivre le développement de l'infrastructure, le code est par ici:
+https://github.com/pierreozoux/indiepaas
+
+Vous pouvez ouvrir des tickets et suivre leur avancement.
+
+# Finance
+ - hébergement: 70€
+ - domaines: 104€
+
+# Warrant canary
+https://github.com/pierreozoux/hosting/blob/master/warrant-canary/2015-02-26
+
+Si vous avez des questions ou suggestions, n'hésitez pas à m'en faire part en répondant à ce mail!
+
+Pierre
+
+24 personnes libérées!

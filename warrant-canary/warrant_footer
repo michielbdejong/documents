@@ -1,0 +1,18 @@
+The primary Pierre Ozoux public key is here:
+
+https://keybase.io/pierreozoux/key.asc
+Fingerprint: 172C25C72840DB0AD88926A094265A67410D4B3C
+
+Notes:
+
+This scheme is not infallible.  Although signing the declaration makes it impossible for a third party to produce arbitrary declarations, it does not prevent them from using force to coerce me to produce false declarations.
+The news clip in the signed message serves to demonstrate that that update could not have been created prior to that date.  It shows that a series of these updates were not created in advance and posted on this page.
+
+As a comment on that, I have one server in germany, and one VM hosted in Paris by an american company.
+I backuo data on VM hosted by an american provider, but I use encrypt backups before sending them.
+My service is not (yet) oriented for strong privacy/intamacy.
+As my disks are not (yet) encrypted, I have good reasons to think that secret services (german or american) can easily copy our data. And I will not notice it.
+
+As a general advice, do not put data online that you think are important to keep your privacy/intimacy.
+Or encrypt them before sending!
+

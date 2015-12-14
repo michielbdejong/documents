@@ -1,0 +1,64 @@
+Pierre Ozoux - IndieHoster - Warrant Canary
+
+Existing and proposed laws, especially as relate to the US Patriot Act, etc., provide
+for secret warrants, searches and seizures of data.
+
+Some such laws provide for criminal penalties for revealing the warrant, search or seizure, disallowing the disclosure of events that would materially affect the users of a service
+such as my hosting service.
+
+I will in fact comply with such warrants and their provisions for secrecy.
+
+I will also make available, monthly, a "warrant canary" in the form of a cryptographically signed message containing the following:
+
+- a declaration that, up to that point, no warrants have been served, nor have any searches or seizures taken place
+
+- a cut and paste headline from a major news source, establishing date
+
+Special note should be taken if these messages ever cease being updated, or are removed from this page.
+
+The current message is here:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+2015-05-07
+
+No warrants have ever been served to me, Pierre Ozoux.
+No searches or seizures of any kind have ever been performed on my assets.
+http://www.lemonde.fr/pixels/article/2015/05/06/loi-sur-le-renseignement-un-danger-pour-la-protection-des-sources-selon-l-osce_4628878_4408996.html
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBAgAGBQJVSz5BAAoJEJQmWmdBDUs8gWcP/i/TXvLRSnwFwogLQxQp5CHh
+ky35aZOJZ8uS145NLNqj8noqDiku0xuG+LzLQcJmH9Bg0st/1/DaibkI/Xxx60oL
+r824VEJs6pIDxzX8/6mfBLVRksbbV2BgerUPUMUOTPeA0AHQJ+4jl8xUBu2gqgd8
+Ph5uEEtoghI+tEXfDW8+xaIjYw1Gea6zM45RgEQ4IU5IrBYwcObSAtu/c7lVHqOG
+IPpHSpCzRGvjUo5iG9EL26vX4nQux7nb/3LQWs5o/3smY26or56qwryK9nYQGmio
+vqyKyReyrKRTEZSzlooz52Sd2oauxSEyRnXycfOgIeCFlQtkNnlyd3JpnUgHel+1
+NCqauaHPpF8vPmqi8El1Shm/9QrEu2zOZXKpFL2DvX1kSvOH5kCgRaZWf1qio8CX
+EzFTdSSiBxj1c6vjyifJZsuTyMoEy/Xhznpmh8fdHvSh6yY4M68GW5VtQkr+pq/x
+GmvBl99LWSQu4gdk7uTHra0+uB81j9qK5eTocuBUr0VgMMQy2lz1Vrep6Gx46Zww
+MVNSSlL+l+s6WOMGxF4yufCs1BrkG6DL3isd5hghip70Hd9dhYjhKcefVB2AQfbW
+u0EHQpzQdyHF2PeNi5lnpuW0ArmNMjL3s5oAn8QcR2c6HfkkOtKOWHuJ2nB/+BcD
+/lMtQEC0M1mJlNhFeKBA
+=713v
+-----END PGP SIGNATURE-----
+
+The primary Pierre Ozoux public key is here:
+
+https://keybase.io/pierreozoux/key.asc
+Fingerprint: 172C25C72840DB0AD88926A094265A67410D4B3C
+
+Notes:
+
+This scheme is not infallible.  Although signing the declaration makes it impossible for a third party to produce arbitrary declarations, it does not prevent them from using force to coerce me to produce false declarations.
+The news clip in the signed message serves to demonstrate that that update could not have been created prior to that date.  It shows that a series of these updates were not created in advance and posted on this page.
+
+As a comment on that, I have one server in germany, and one VM hosted in Paris by an american company.
+I backuo data on VM hosted by an american provider, but I use encrypt backups before sending them.
+My service is not (yet) oriented for strong privacy/intamacy.
+As my disks are not (yet) encrypted, I have good reasons to think that secret services (german or american) can easily copy our data. And I will not notice it.
+
+As a general advice, do not put data online that you think are important to keep your privacy/intimacy.
+Or encrypt them before sending!
