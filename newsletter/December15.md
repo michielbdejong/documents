@@ -4,7 +4,8 @@ Dear all,
 
 The December issue:
 
-It's been a year already! I started on a RaspberryPi some years ago to host friends website, and now it's been a year I'm making hosting my main profesionnal activity.
+It's been a year already! I started on a RaspberryPi some years ago to host friends' websites, and now it's been a year I'm making hosting my main profesionnal activity.
+
 I started with Michiel, he stopped in June, and in December, [Peter Joined](https://www.peterbouda.eu/2015/i-am-an-indiehoster-now) \o/.
 
 Let's make a little summary of this year in numbers:
@@ -22,17 +23,17 @@ Let's make a little summary of this year in numbers:
 
 As you can see, it is not yet profitable. With Peter, we have a lot of idea for IndieHosters year 2.
 We think about making a crowdfunding in March.
-For that matter, we'd need your input to understand better what you are looking for.
 
+For that matter, we'd need your input to understand better what you are looking for.
 
 [Please fill in the survey to help us.]()
 
 
 # How to support us?
 
-The best way to support us is to contract our service. If you are alone we recommend you this [bundle](https://indiehosters.net/shop/product/personal-bundle-39).
+The best way to support us is to contract our service. If you are alone we recommend you our [personal bundle](https://indiehosters.net/shop/product/personal-bundle-39). This offer is our alternative to any Google, iCloud or Outlook account, with everything you need to synchronize contacts, calendars, files and connect with your friends and communities. Please also recommend the bundle or other apps to your friends and we give one month of hosting for free to you and your friend!
 
-We decided to also open a consulting activity. If you need SysAdmin or DevOps or Full stack javascript competences, please get in touch.
+We decided to start with consulting activities. If you need SysAdmin or DevOps or full-stack JavaScript competences, please get in touch.
 
 # Uptime
 
@@ -47,5 +48,3 @@ Peter & Pierre
 more than 74 people freed and counting!
 
 [Warrant canary]()
-
-PS: referal - if you convince a friend of joining IndieHosters, we give a month for free for you and your friend!
