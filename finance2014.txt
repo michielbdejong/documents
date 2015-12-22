@@ -95,22 +95,21 @@
 * (M) customers by 31 January: 14 * 40 = 560 EUR
 * (P) splitting rest of the pot in two on 31 January (excluding reserved): 838.40 EUR
 * (M) splitting rest of the pot in two on 31 January (excluding reserved): 838.39 EUR
-
-### Reserved: 1890 EUR
-
 * (P?) time and expenses sending out stickers: 400 EUR
 * (P?) Stickers incl. stamps (estimate) 170 EUR
-* (P?) hosting perks to be possibly fulfilled by Pierre: 29 * 40 = 1160 EUR
-* (P?) time and expenses possible teaching from 1 expert pack: 8 hours = 80 EUR
-* (M?) two customers who might still claim their perk later this year: 2 * 40 = 80 EUR
 
-# End status: 912.60 + 977.41 = 1890
+### Reserved: 1320 EUR
+
+* (P?) hosting perks that were fulfilled by Pierre: X * 40 = X EUR
+* Rest of those 1320 euros: general reserve
+
+# End status: 342.60 + 977.40 = 1320
   - kept safe by Pierre:
       Money in:			+ 1250
       Transfers:		+ (1000 + 1500 + 3000)
       Worked:			- (190 + 220 + 350 + 320 + 375 + 365 + 335 + 400 + 235 + 315 + 120 + 300)
-      Franchise expenses:	- (200 + 24 + 100 + 1150 + 838.40)
-      Total:			= 912.60 EUR
+      Franchise expenses:	- (200 + 24 + 100 + 1150 + 838.40 + 400 + 170)
+      Total:			= 342.60 EUR
 
   - kept safe by Michiel:
       Money in:			+ (6000 + 5086 + 80)
