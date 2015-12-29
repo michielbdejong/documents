@@ -16,6 +16,7 @@
 * (M->P) IBAN transfer 3 Nov 2014, 1000 EUR
 * (M->P) IBAN transfer 14 Nov 2014, 1500 EUR
 * (M->P) IBAN transfer 23 Dec 2014, 3000 EUR
+* (M->P) Renewal one .nl domain, Feb 2016, 16.35 EUR
 
 ## Money out:
 
@@ -97,23 +98,25 @@
 * (M) splitting rest of the pot in two on 31 January (excluding reserved): 838.39 EUR
 * (P?) time and expenses sending out stickers: 400 EUR
 * (P?) Stickers incl. stamps (estimate) 170 EUR
+* (M) Renewal indiehosters.net/.com, Aug 2015, 21.55 EUR
 
-### Reserved: 1320 EUR
+
+### Reserved: 1298.47 EUR
 
 * (P?) hosting perks that were fulfilled by Pierre: X * 40 = X EUR
-* Rest of those 1320 euros: general reserve
+* Rest of those 1298.47 euros: general reserve
 
-# End status: 342.60 + 977.40 = 1320
+# End status: 358.95 + 939.52 = 1298.47
   - kept safe by Pierre:
       Money in:			+ 1250
-      Transfers:		+ (1000 + 1500 + 3000)
+      Transfers:		+ (1000 + 1500 + 3000 + 16.35)
       Worked:			- (190 + 220 + 350 + 320 + 375 + 365 + 335 + 400 + 235 + 315 + 120 + 300)
       Franchise expenses:	- (200 + 24 + 100 + 1150 + 838.40 + 400 + 170)
-      Total:			= 342.60 EUR
+      Total:			= 358.95 EUR
 
   - kept safe by Michiel:
       Money in:			+ (6000 + 5086 + 80)
-      Transfers:		- (1000 + 1500 + 3000)
+      Transfers:		- (1000 + 1500 + 3000 + 16.35)
       Worked:			- (210 + 350 + 300 + 20 + 350 + 285 + 230 + 250 + 120 + 320 + 230 + 160)
-      Franchise expenses:	- (26.60 + 198 + 28.15 + 9 + 203.44 + 560 + 838.39)
-      Total:			= 977.40 EUR
+      Franchise expenses:	- (26.60 + 198 + 28.15 + 9 + 203.44 + 560 + 838.39 + 21.55)
+      Total:			= 939.52 EUR
